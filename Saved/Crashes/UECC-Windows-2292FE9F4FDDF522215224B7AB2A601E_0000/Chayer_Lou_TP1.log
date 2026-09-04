@@ -4087,24 +4087,3 @@ FPackageName: Skipped package /Game/CozyNature/Maps/LayerInfo/Sand_LayerInfo has
 [2026.09.04-16.00.50:572][540]LogStall: Shutdown...
 [2026.09.04-16.00.50:572][540]LogStall: Shutdown complete.
 [2026.09.04-16.00.50:596][540]LogSlate: Window 'Chayer_Lou_TP1 - Unreal Editor' being destroyed
-[2026.09.04-16.00.52:135][540]LogWindows: Error: === Critical error: ===
-[2026.09.04-16.00.52:136][540]LogWindows: Error: 
-[2026.09.04-16.00.52:136][540]LogWindows: Error: Fatal error!
-[2026.09.04-16.00.52:136][540]LogWindows: Error: 
-[2026.09.04-16.00.52:136][540]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000019154340000
-[2026.09.04-16.00.52:136][540]LogWindows: Error: 
-[2026.09.04-16.00.52:136][540]LogWindows: Error: [Callstack] 0x00007ffc5fbbad37 UnrealEditor-Landscape.dll!UnknownFunction []
-[2026.09.04-16.00.52:136][540]LogWindows: Error: [Callstack] 0x00007ffc5fba7ae2 UnrealEditor-Landscape.dll!UnknownFunction []
-[2026.09.04-16.00.52:136][540]LogWindows: Error: [Callstack] 0x00007ffc5a72d30e UnrealEditor-Renderer.dll!UnknownFunction []
-[2026.09.04-16.00.52:136][540]LogWindows: Error: [Callstack] 0x00007ffc5a75c874 UnrealEditor-Renderer.dll!UnknownFunction []
-[2026.09.04-16.00.52:136][540]LogWindows: Error: [Callstack] 0x00007ffc9e2d78e7 UnrealEditor-RenderCore.dll!UnknownFunction []
-[2026.09.04-16.00.52:136][540]LogWindows: Error: [Callstack] 0x00007ffc9e2fe728 UnrealEditor-RenderCore.dll!UnknownFunction []
-[2026.09.04-16.00.52:136][540]LogWindows: Error: [Callstack] 0x00007ffc6c82fb72 UnrealEditor-Core.dll!UnknownFunction []
-[2026.09.04-16.00.52:136][540]LogWindows: Error: [Callstack] 0x00007ffc6c82284f UnrealEditor-Core.dll!UnknownFunction []
-[2026.09.04-16.00.52:136][540]LogWindows: Error: [Callstack] 0x00007ffc6c822ece UnrealEditor-Core.dll!UnknownFunction []
-[2026.09.04-16.00.52:136][540]LogWindows: Error: [Callstack] 0x00007ffc9e322b19 UnrealEditor-RenderCore.dll!UnknownFunction []
-[2026.09.04-16.00.52:136][540]LogWindows: Error: [Callstack] 0x00007ffc9e323c04 UnrealEditor-RenderCore.dll!UnknownFunction []
-[2026.09.04-16.00.52:136][540]LogWindows: Error: [Callstack] 0x00007ffc6ceb37cd UnrealEditor-Core.dll!UnknownFunction []
-[2026.09.04-16.00.52:136][540]LogWindows: Error: [Callstack] 0x00007ffc6ceac91f UnrealEditor-Core.dll!UnknownFunction []
-[2026.09.04-16.00.52:136][540]LogWindows: Error: [Callstack] 0x00007ffd6a45e957 KERNEL32.DLL!UnknownFunction []
-[2026.09.04-16.00.52:136][540]LogWindows: Error: 
