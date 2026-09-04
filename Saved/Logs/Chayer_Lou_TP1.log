@@ -1563,3 +1563,816 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.09.04-13.43.57:471][922]LogMeshUtilities: Finished distance field build in 1.0s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 51% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
 [2026.09.04-13.43.57:654][922]LogMeshUtilities: Finished distance field build in 1.2s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 64% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
 [2026.09.04-13.44.16:126][ 13]LogDerivedDataCache: C:/Users/6226165/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: ================================================
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Total job queries 18 334, among them cache hits 3 822 (20.85%), DDC hits 12 338 (67.30%), Duplicates 1 576 (8.60%)
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Tracking 12 936 distinct input hashes that result in 11 838 distinct outputs (91.51%)
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: RAM used: 158,23 MiB of 1,60 GiB budget. Usage: 9.66%
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Shaders Compiled: 598
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Jobs assigned 598, completed 598 (100%)
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Average time worker was idle: 0.41 s
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Time job spent in pending queue: average 4.37 s, longest 43.56 s
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Job execution time: average 8.41 s, max 43.69 s
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Job life time (pending + execution): average 12.78 s, max 45.50
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Shader code size: total 9,523 MiB, numShaders 621, average 15,703 KiB, min 2,246 KiB, max 55,505 KiB
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 81.34 s
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.68%
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Jobs were issued in 159 batches (only local compilation was used), average 3.76 jobs/batch
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Average processing rate: 7.35 jobs/sec
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Total thread time: 727,883 s
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Total thread preprocess time: 127,792 s
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Percentage time preprocessing: 17.56%
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Effective parallelization: 8.95 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.894907
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display:                      FPathTracingBuildCloudAccelerationMapCS (compiled    1 times, average 4.58 sec, max 4.58 sec, min 4.58 sec)
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial (compiled    1 times, average 4.56 sec, max 4.56 sec, min 4.56 sec)
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   21 times, average 4.56 sec, max 25.59 sec, min 0.48 sec)
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    2 times, average 4.11 sec, max 6.58 sec, min 1.64 sec)
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   10 times, average 4.07 sec, max 12.77 sec, min 1.73 sec)
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 19.27% of total time (compiled   80 times, average 1.75 sec, max 2.07 sec, min 1.48 sec)
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 13.14% of total time (compiled   21 times, average 4.56 sec, max 25.59 sec, min 0.48 sec)
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.80% of total time (compiled   51 times, average 1.26 sec, max 21.65 sec, min 0.10 sec)
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.76% of total time (compiled   45 times, average 1.09 sec, max 7.86 sec, min 0.20 sec)
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display:                                             FDebugViewModeVS - 5.86% of total time (compiled   48 times, average 0.89 sec, max 17.48 sec, min 0.11 sec)
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: === Material stats ===
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Materials Translated:    142
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Material Translation Only: 0.03 s (34%)
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.09.04-13.46.03:213][334]LogShaderCompilers: Display: ================================================
+[2026.09.04-13.48.35:906][792]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 338.277191
+[2026.09.04-13.48.36:905][795]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.04-13.48.36:905][795]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 338.943390, Update Interval: 307.229218
+[2026.09.04-13.53.47:616][727]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 649.995239
+[2026.09.04-13.53.48:615][730]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.04-13.53.48:615][730]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 650.660889, Update Interval: 325.091705
+[2026.09.04-13.59.18:002][718]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 980.383728
+[2026.09.04-13.59.19:003][721]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.04-13.59.19:003][721]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 981.051270, Update Interval: 322.599579
+[2026.09.04-14.04.50:387][715]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1312.781372
+[2026.09.04-14.04.51:387][718]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.04-14.04.51:387][718]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1313.447388, Update Interval: 359.251068
+[2026.09.04-14.11.18:781][880]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1701.183594
+[2026.09.04-14.11.19:781][883]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.04-14.11.19:781][883]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1701.849609, Update Interval: 336.039917
+[2026.09.04-14.17.53:174][ 63]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2095.581055
+[2026.09.04-14.17.54:174][ 66]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.04-14.17.54:175][ 66]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2096.247803, Update Interval: 326.651825
+[2026.09.04-14.24.09:231][191]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2471.653809
+[2026.09.04-14.24.10:231][194]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.04-14.24.10:231][195]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2472.320312, Update Interval: 331.767944
+[2026.09.04-14.30.27:941][327]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2850.368896
+[2026.09.04-14.30.28:942][330]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.04-14.30.28:942][330]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2851.037109, Update Interval: 350.179749
+[2026.09.04-14.37.00:997][506]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3243.435303
+[2026.09.04-14.37.01:995][509]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.04-14.37.01:995][509]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3244.101318, Update Interval: 319.874878
+[2026.09.04-14.43.19:720][642]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3622.172119
+[2026.09.04-14.43.20:720][645]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.04-14.43.20:721][646]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3622.840088, Update Interval: 317.732483
+[2026.09.04-14.44.16:127][812]LogDerivedDataCache: C:/Users/6226165/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.09.04-14.47.33:242][343]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.09.04-14.47.33:326][343]LogPSOHitching: Encountered 150 PSO creation hitches so far (41 graphics, 109 compute). 0 of them were precached.
+[2026.09.04-14.48.05:599][998]Cmd: DELETE
+[2026.09.04-14.48.05:599][998]Cmd: ACTOR DELETE
+[2026.09.04-14.48.05:604][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:617][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:628][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:640][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:651][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:661][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:672][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:682][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:692][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:701][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:712][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:722][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:730][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:740][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:748][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:757][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:766][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:774][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:783][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:791][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:799][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:807][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:814][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:821][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:828][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:836][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:842][998]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.05:938][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.09.04-14.48.05:941][998]LogEditorActor: Deleted 27 Actors (0.341 secs)
+[2026.09.04-14.48.17:564][323]Cmd: DELETE
+[2026.09.04-14.48.17:564][323]Cmd: ACTOR DELETE
+[2026.09.04-14.48.17:567][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:574][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:581][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:588][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:593][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:600][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:607][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:612][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:617][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:624][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:630][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:634][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:640][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:645][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:650][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:655][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:660][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:664][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:668][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:673][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:677][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:681][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:685][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:688][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:691][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:696][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:700][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:703][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:705][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:708][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:711][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:714][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:717][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:719][323]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2026.09.04-14.48.17:738][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.09.04-14.48.17:742][323]LogEditorActor: Deleted 34 Actors (0.177 secs)
+[2026.09.04-14.49.03:862][414]LogShaderCompilers: Display: ================================================
+[2026.09.04-14.49.03:862][414]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.09.04-14.49.03:862][414]LogShaderCompilers: Display: Total job queries 18 344, among them cache hits 3 827 (20.86%), DDC hits 12 339 (67.26%), Duplicates 1 578 (8.60%)
+[2026.09.04-14.49.03:862][414]LogShaderCompilers: Display: Tracking 12 939 distinct input hashes that result in 11 841 distinct outputs (91.51%)
+[2026.09.04-14.49.03:862][414]LogShaderCompilers: Display: RAM used: 158,25 MiB of 1,60 GiB budget. Usage: 9.66%
+[2026.09.04-14.49.03:862][414]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.09.04-14.49.03:862][414]LogShaderCompilers: Display: Shaders Compiled: 600
+[2026.09.04-14.49.03:862][414]LogShaderCompilers: Display: Jobs assigned 600, completed 600 (100%)
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Average time worker was idle: 51.14 s
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Time job spent in pending queue: average 4.35 s, longest 43.56 s
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Job execution time: average 8.39 s, max 43.69 s
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Job life time (pending + execution): average 12.74 s, max 45.50
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Shader code size: total 9,543 MiB, numShaders 623, average 15,685 KiB, min 2,246 KiB, max 55,505 KiB
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 82.58 s
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.68%
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Jobs were issued in 161 batches (only local compilation was used), average 3.73 jobs/batch
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Average processing rate: 7.27 jobs/sec
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Total thread time: 728,809 s
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Total thread preprocess time: 127,926 s
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Percentage time preprocessing: 17.55%
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Effective parallelization: 8.83 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.882536
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display:                      FPathTracingBuildCloudAccelerationMapCS (compiled    1 times, average 4.58 sec, max 4.58 sec, min 4.58 sec)
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial (compiled    1 times, average 4.56 sec, max 4.56 sec, min 4.56 sec)
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   22 times, average 4.38 sec, max 25.59 sec, min 0.48 sec)
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    2 times, average 4.11 sec, max 6.58 sec, min 1.64 sec)
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   10 times, average 4.07 sec, max 12.77 sec, min 1.73 sec)
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 19.25% of total time (compiled   80 times, average 1.75 sec, max 2.07 sec, min 1.48 sec)
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 13.21% of total time (compiled   22 times, average 4.38 sec, max 25.59 sec, min 0.48 sec)
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.79% of total time (compiled   51 times, average 1.26 sec, max 21.65 sec, min 0.10 sec)
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.80% of total time (compiled   46 times, average 1.08 sec, max 7.86 sec, min 0.20 sec)
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display:                                             FDebugViewModeVS - 5.85% of total time (compiled   48 times, average 0.89 sec, max 17.48 sec, min 0.11 sec)
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: === Material stats ===
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Materials Translated:    142
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Material Translation Only: 0.03 s (34%)
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.09.04-14.49.03:863][414]LogShaderCompilers: Display: ================================================
+[2026.09.04-14.49.30:249][608]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3992.711426
+[2026.09.04-14.49.31:250][611]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.04-14.49.31:251][611]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3993.392822, Update Interval: 345.263214
+[2026.09.04-14.49.31:993][613]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2026.09.04-14.49.31:998][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="D:/JV III/Chayer_Lou_TP1/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2026.09.04-14.49.32:007][613]LogSavePackage: Moving output files for package: /Temp/Autosaves/Temp/Untitled_1_Auto1
+[2026.09.04-14.49.32:007][613]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/Untitled_1_Auto1F00BBAB64E23DAB7C8CE9784B4ACF506.tmp' to 'D:/JV III/Chayer_Lou_TP1/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2026.09.04-14.49.32:009][613]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.036
+[2026.09.04-14.49.32:009][613]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.036
+[2026.09.04-14.51.05:270][ 66]LogPython: import unreal
+import os
+
+def etape_01_structure_clean():
+    eal = unreal.EditorAssetLibrary()
+    
+    # Données basées sur votre ListeDesDossiers.txt
+    folders_data = [
+        # --- AI ---
+        ("Project/AI/BehaviorTrees", "Le flux de décision principal (BT_)."),
+        ("Project/AI/BehaviorTrees/Tasks", "Actions personnalisées du Behavior Tree (BTT_)."),
+        ("Project/AI/BehaviorTrees/Decorators", "Conditions pour bloquer ou autoriser l'exécution (BTD_)."),
+        ("Project/AI/BehaviorTrees/Services", "Mises à jour régulières des variables (BTS_)."),
+        ("Project/AI/StateTrees", "Arbres d'états pour la logique et la prise de décision (ST_)."),
+        ("Project/AI/StateTrees/Tasks", "Actions spécifiques exécutées dans les états (STT_)."),
+        ("Project/AI/StateTrees/Evaluators", "Évaluateurs pour calculer des données avant transition (STE_)."),
+        ("Project/AI/StateTrees/Conditions", "Conditions pour valider les transitions entre les états (STC_)."),
+        ("Project/AI/Blackboards", "La mémoire de l'IA (BB_)."),
+        ("Project/AI/Controllers", "L'acteur qui possède et guide le NPC (AIC_)."),
+
+         # --- ANIMATIONS ---
+        ("Project/Animations/Player", "Contient les AnimBP, BlendSpaces et Séquences du joueur."),
+        ("Project/Animations/NPCs", "Anims des ennemis et PNJs."),
+
+         # --- AUDIO ---
+        ("Project/Audio/Music", "Pour les musiques de fond et d'ambiance."),
+        ("Project/Audio/SFX", "Pour les bruitages courts (tirs, pas, impacts)."),
+
+         # --- BLUEPRINTS ---
+        ("Project/Blueprints/Actors", "Objets interactifs du monde (portes, items, pièges)."),
+        ("Project/Blueprints/Components", "Composants réutilisables à ajouter aux acteurs."),
+        ("Project/Blueprints/Core", "LE CADRE : GameMode, PlayerController, GameInstance."),
+        ("Project/Blueprints/Interfaces", "Blueprint Interfaces pour la communication."),
+        ("Project/Blueprints/Characters/Player", "Le héros contrôlé par le joueur."),
+        ("Project/Blueprints/Characters/NPCs", "Les ennemis et personnages Non-Joueurs."),
+
+        # --- MAPS ---
+        ("Project/Maps/Development", "Niveaux de test et bacs à sable."),
+        ("Project/Maps/Main", "Les niveaux officiels du jeu final."),
+
+        # --- MATERIALS ---
+        ("Project/Materials/Master", "Les matériaux parents complexes."),
+        ("Project/Materials/Instances", "Les instances (MI_) pour changer les couleurs/textures."),
+
+        # --- MESHES ---
+        ("Project/Meshes/Props", "Objets statiques de décor (SM_)."),
+        ("Project/Meshes/Characters", "Modèles 3D des personnages (Skeletal Meshes)."),
+	    ("Project/Meshes/Destructibles/GeometryCollections", "Les objets 3D fracturés (GC_)."),
+        ("Project/Meshes/Destructibles/Fields", "Blueprints Field System pour diriger et contrôler les brisures (FS_)."),
+
+        # --- TEXTURES & VFX ---
+        ("Project/Textures", "Toutes les images importées."),
+        ("Project/VFX/Niagara", "Particules et Effets Visuels."),
+
+        # --- SYSTEMS ---
+        ("Project/Systems/Enums", "Enumerations (Listes d'états)."),
+        ("Project/Systems/Input", "Fichiers Enhanced Input (IMC_, IA_)."),
+        ("Project/Systems/Save_Data", "Système de sauvegarde."),
+        ("Project/Systems/Structs", "Structures de données."),
+
+        # --- UI ---
+        ("Project/UI/Blueprints", "Les Widgets (WBP_) pour l'interface."),
+        ("Project/UI/Fonts", "Polices d'écriture."),
+        ("Project/UI/Assets", "Images spécifiques à l'interface.")
+    ]
+
+    # 1. Création du dossier spécial _External
+    eal.make_directory("/Game/_External/BaseTemplate")
+    
+    # 2. Boucle de création des dossiers et fichiers .txt
+    content_dir = unreal.Paths.project_content_dir()
+    
+    for path, desc in folders_data:
+        ue_path = "/Game/" + path
+        eal.make_directory(ue_path)
+        
+        # Création physique du fichier description
+        full_disk_path = os.path.join(content_dir, path)
+        if not os.path.exists(full_disk_path):
+            os.makedirs(full_disk_path)
+            
+        desc_file = os.path.join(full_disk_path, "DescriptionDossier.txt")
+        with open(desc_file, "w", encoding="utf-8") as f:
+            f.write(desc)
+
+    unreal.log("SCRIPT 1 TERMINÉ : Structure et documentation créées.")
+
+etape_01_structure_clean()
+
+[2026.09.04-14.51.05:272][ 66]LogPython: Warning: <string>:5: DeprecationWarning: EditorAssetLibrary: Creating an instance of a BlueprintFunctionLibrary has been deprecated since UE 5.5 and will be removed in the future. Call its classmethods directly on the class, eg, 'unreal.EditorAssetLibrary.foo()'.
+
+[2026.09.04-14.51.05:472][ 66]LogPython: SCRIPT 1 TERMINÉ : Structure et documentation créées.
+[2026.09.04-14.51.19:537][618]LogSlate: Took 0.008948 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.09.04-14.51.52:603][449]LogPython: import unreal
+
+def etape_02_force_core_assets():
+    eal = unreal.EditorAssetLibrary()
+    at = unreal.AssetToolsHelpers.get_asset_tools()
+    
+    # Sauvegarde préventive
+    unreal.EditorLoadingAndSavingUtils.save_dirty_packages(True, True)
+
+    target_base = "/Game/Project/Animations/Player"
+    
+    # [cite_start]Liste précise des fichiers critiques (Basée sur ListeDesDossiersDepart.txt [cite: 32-33])
+    critical_assets = [
+        # Squelette (Doit bouger en premier)
+        ("/Game/Characters/Mannequins/Meshes/SK_Mannequin", target_base + "/Characters/Mannequins/Meshes"),
+        ("/Game/Characters/Mannequins/Rigs/PA_Mannequin", target_base + "/Characters/Mannequins/Rigs"),
+        # Les Maillages Skelettiques
+        ("/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple", target_base + "/Characters/Mannequins/Meshes"),
+        ("/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple", target_base + "/Characters/Mannequins/Meshes")
+    ]
+
+    unreal.log("--- DÉBUT FORÇAGE CRITIQUE ---")
+
+    for src, dst_folder in critical_assets:
+        asset_name = src.split("/")[-1]
+        final_path = dst_folder + "/" + asset_name
+
+        if eal.does_asset_exist(src):
+            asset_obj = eal.load_asset(src)
+            
+            # Création du dossier si nécessaire
+            if not eal.does_directory_exist(dst_folder):
+                eal.make_directory(dst_folder)
+
+            # Consolidate (Fusion) si la destination existe déjà
+            if eal.does_asset_exist(final_path):
+                unreal.log(f"Fusion de {asset_name}...")
+                dest_obj = eal.load_asset(final_path)
+                at.consolidate_assets(dest_obj, [asset_obj])
+            else:
+                unreal.log(f"Déplacement de {asset_name}...")
+                at.rename_assets([unreal.AssetRenameData(asset=asset_obj, new_package_path=dst_folder, new_name=asset_name)])
+
+    # Sauvegarde IMMEDIATE
+    unreal.EditorLoadingAndSavingUtils.save_dirty_packages(True, True)
+    unreal.log("SCRIPT 2 TERMINÉ : Assets critiques sécurisés.")
+
+etape_02_force_core_assets()
+[2026.09.04-14.51.52:604][449]LogPython: Warning: <string>:4: DeprecationWarning: EditorAssetLibrary: Creating an instance of a BlueprintFunctionLibrary has been deprecated since UE 5.5 and will be removed in the future. Call its classmethods directly on the class, eg, 'unreal.EditorAssetLibrary.foo()'.
+
+[2026.09.04-14.51.52:623][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2026.09.04-14.51.52:625][449]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.04-14.51.52:684][449]Message dialog closed, result: Ok, title: Échec de l'enregistrement des paquets, text: Les ressources suivantes n'ont pas été enregistrées correctement :
+/Temp/Untitled_1
+[2026.09.04-14.51.52:684][449]LogFileHelpers: InternalPromptForCheckoutAndSave took 59.141 ms
+[2026.09.04-14.51.52:684][449]LogPython: --- DÉBUT FORÇAGE CRITIQUE ---
+[2026.09.04-14.51.52:703][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2026.09.04-14.51.52:704][449]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.04-14.51.52:766][449]Message dialog closed, result: Ok, title: Échec de l'enregistrement des paquets, text: Les ressources suivantes n'ont pas été enregistrées correctement :
+/Temp/Untitled_1
+[2026.09.04-14.51.52:766][449]LogFileHelpers: InternalPromptForCheckoutAndSave took 61.954 ms (total: 121.096 ms)
+[2026.09.04-14.51.52:766][449]LogPython: SCRIPT 2 TERMINÉ : Assets critiques sécurisés.
+[2026.09.04-14.51.56:211][696]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.09.04-14.52.03:866][578]LogShaderCompilers: Display: ================================================
+[2026.09.04-14.52.03:866][578]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.09.04-14.52.03:866][578]LogShaderCompilers: Display: Total job queries 18 350, among them cache hits 3 827 (20.86%), DDC hits 12 341 (67.25%), Duplicates 1 578 (8.60%)
+[2026.09.04-14.52.03:866][578]LogShaderCompilers: Display: Tracking 12 945 distinct input hashes that result in 11 847 distinct outputs (91.52%)
+[2026.09.04-14.52.03:866][578]LogShaderCompilers: Display: RAM used: 158,30 MiB of 1,60 GiB budget. Usage: 9.66%
+[2026.09.04-14.52.03:866][578]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Shaders Compiled: 604
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Jobs assigned 604, completed 604 (100%)
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Average time worker was idle: 79.62 s
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Time job spent in pending queue: average 4.33 s, longest 43.56 s
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Job execution time: average 8.33 s, max 43.69 s
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Job life time (pending + execution): average 12.66 s, max 45.50
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Shader code size: total 9,583 MiB, numShaders 627, average 15,651 KiB, min 2,246 KiB, max 55,505 KiB
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 84.20 s
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.68%
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Jobs were issued in 165 batches (only local compilation was used), average 3.66 jobs/batch
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Average processing rate: 7.17 jobs/sec
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Total thread time: 730,495 s
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Total thread preprocess time: 127,984 s
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Percentage time preprocessing: 17.52%
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Effective parallelization: 8.68 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.867574
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display:                      FPathTracingBuildCloudAccelerationMapCS (compiled    1 times, average 4.58 sec, max 4.58 sec, min 4.58 sec)
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial (compiled    1 times, average 4.56 sec, max 4.56 sec, min 4.56 sec)
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    2 times, average 4.11 sec, max 6.58 sec, min 1.64 sec)
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   10 times, average 4.07 sec, max 12.77 sec, min 1.73 sec)
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   24 times, average 4.06 sec, max 25.59 sec, min 0.48 sec)
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 19.20% of total time (compiled   80 times, average 1.75 sec, max 2.07 sec, min 1.48 sec)
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 13.34% of total time (compiled   24 times, average 4.06 sec, max 25.59 sec, min 0.48 sec)
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.79% of total time (compiled   52 times, average 1.23 sec, max 21.65 sec, min 0.10 sec)
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.83% of total time (compiled   47 times, average 1.06 sec, max 7.86 sec, min 0.20 sec)
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display:                                             FDebugViewModeVS - 5.83% of total time (compiled   48 times, average 0.89 sec, max 17.48 sec, min 0.11 sec)
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: === Material stats ===
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Materials Translated:    142
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Material Translation Only: 0.03 s (34%)
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.09.04-14.52.03:867][578]LogShaderCompilers: Display: ================================================
+[2026.09.04-14.52.35:696][378]LogPython: import unreal
+
+def etape_03_transfert_global():
+    eal = unreal.EditorAssetLibrary()
+    at = unreal.AssetToolsHelpers.get_asset_tools()
+
+    unreal.EditorLoadingAndSavingUtils.save_dirty_packages(True, True)
+    
+    # 1. TRAITEMENT DES DOSSIERS COMPLETS
+    folder_tasks = [
+        ("/Game/Characters", "/Game/Project/Animations/Player"), # Tout ce qui reste dans Characters
+        ("/Game/LevelPrototyping", "/Game/_External"),
+        ("/Game/FirstPerson/Anims", "/Game/Project/Animations/Player"),
+        ("/Game/Input", "/Game/Project/Systems/Input") # Gère aussi le sous-dossier Actions
+    ]
+
+    assets_to_move = []
+
+    for src_folder, dst_root in folder_tasks:
+        if eal.does_directory_exist(src_folder):
+            files = eal.list_assets(src_folder, recursive=True)
+            
+            for f_path in files:
+                asset_obj = eal.load_asset(f_path)
+                if not asset_obj: continue
+
+                # Calcul intelligent du chemin de destination
+                rel_path = f_path.replace(src_folder, "")
+                path_only = unreal.Paths.get_path(rel_path)
+                folder_name_src = src_folder.split("/")[-1]
+                
+                # Logique spéciale : éviter .../Input/Input/
+                if folder_name_src == "Input":
+                    final_folder = (dst_root + path_only).rstrip("/")
+                else:
+                    final_folder = (dst_root + "/" + folder_name_src + path_only).rstrip("/")
+
+                assets_to_move.append(unreal.AssetRenameData(
+                    asset=asset_obj,
+                    new_package_path=final_folder,
+                    new_name=unreal.SystemLibrary.get_object_name(asset_obj)
+                ))
+
+    # 2. TRAITEMENT DES FICHIERS UNIQUES (First Person BP & Maps)
+    single_files = [
+        ("/Game/FirstPerson/Lvl_FirstPerson", "/Game/_External/BaseTemplate"),
+        ("/Game/FirstPerson/MI_FirstPersonColorway", "/Game/_External/BaseTemplate"),
+        ("/Game/FirstPerson/Blueprints/BP_FirstPersonPlayerController", "/Game/Project/Blueprints/Core"),
+        ("/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode", "/Game/Project/Blueprints/Core"),
+        ("/Game/FirstPerson/Blueprints/BP_FirstPersonCameraManager", "/Game/Project/Blueprints/Core"),
+        ("/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter", "/Game/Project/Blueprints/Characters/Player"),
+        ("/Game/Input/Touch", "/Game/Project/UI/Blueprints") # Cas spécial Touch
+    ]
+
+    for src, dst in single_files:
+        if eal.does_asset_exist(src):
+            obj = eal.load_asset(src)
+            assets_to_move.append(unreal.AssetRenameData(
+                asset=obj,
+                new_package_path=dst,
+                new_name=unreal.SystemLibrary.get_object_name(obj)
+            ))
+        elif eal.does_directory_exist(src): # Pour Touch qui est un dossier
+             files = eal.list_assets(src, recursive=True)
+             for f in files:
+                 o = eal.load_asset(f)
+                 assets_to_move.append(unreal.AssetRenameData(asset=o, new_package_path=dst, new_name=unreal.SystemLibrary.get_object_name(o)))
+
+
+    # EXÉCUTION
+    if len(assets_to_move) > 0:
+        unreal.log(f"Transfert de {len(assets_to_move)} fichiers...")
+        at.rename_assets(assets_to_move)
+        unreal.EditorLoadingAndSavingUtils.save_dirty_packages(True, True)
+    
+    unreal.log("SCRIPT 3 TERMINÉ : Migration globale effectuée.")
+
+etape_03_transfert_global()
+[2026.09.04-14.52.35:716][378]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.09.04-14.52.35:719][378]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.04-14.52.35:782][378]Message dialog closed, result: Ok, title: Échec de l'enregistrement des paquets, text: Les ressources suivantes n'ont pas été enregistrées correctement :
+/Temp/Untitled_1
+[2026.09.04-14.52.35:782][378]LogFileHelpers: InternalPromptForCheckoutAndSave took 62.408 ms (total: 183.504 ms)
+[2026.09.04-14.52.35:783][378]LogPython: SCRIPT 3 TERMINÉ : Migration globale effectuée.
+[2026.09.04-14.53.06:688][ 75]LogSlate: Window 'Enregistrer le niveau sous' being destroyed
+[2026.09.04-14.53.18:585][383]LogSlate: External Image Picker: DecompressImage failed
+[2026.09.04-14.53.20:189][504]LogSlate: Window 'Paramètres du projet' being destroyed
+[2026.09.04-14.53.20:194][504]LogSlate: Window 'Paramètres du projet' being destroyed
+[2026.09.04-14.53.30:456][567]LogSlate: Took 0.008687 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2026.09.04-14.53.30:463][567]LogSlate: Took 0.006820 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2026.09.04-14.53.33:629][936]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2026.09.04-14.53.33:629][936]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2026.09.04-14.53.33:974][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.04-14.53.33:992][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.04-14.53.34:006][937]LogSlate: Took 0.006702 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.09.04-14.53.34:016][937]LogSlate: Took 0.005757 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2026.09.04-14.53.34:022][937]LogSlate: Took 0.004787 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2026.09.04-14.53.35:508][112]LogSlate: Window 'Editor Preferences' being destroyed
+[2026.09.04-14.53.35:514][112]LogSlate: Window 'Editor Preferences' being destroyed
+[2026.09.04-14.54.03:491][471]LogSlate: Took 0.009744 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NotoColorEmoji.ttf' (7610K)
+[2026.09.04-14.54.04:260][561]LogPython: import unreal
+import os
+import shutil
+import stat
+
+def script_04_nettoyage_intelligent():
+    unreal.log("--- DÉBUT SCRIPT 4 : NETTOYAGE INTELLIGENT ---")
+    
+    # Libérer la mémoire
+    unreal.SystemLibrary.collect_garbage()
+    
+    content_dir = unreal.Paths.convert_relative_path_to_full(unreal.Paths.project_content_dir())
+    
+    folders_to_clean = [
+        "FirstPerson",
+        "Characters",
+        "LevelPrototyping",
+        "Input"
+    ]
+
+    # Fonction de gestion d'erreur (Callback)
+    def gestion_erreur(func, path, exc_info):
+        # Si le fichier n'existe pas (ex: ._Meshes fantôme), on ignore
+        if not os.path.exists(path):
+            return
+        # Si le fichier est en lecture seule, on le déverrouille
+        if not os.access(path, os.W_OK):
+            os.chmod(path, stat.S_IWRITE)
+            func(path)
+        else:
+            unreal.log_warning(f"Problème suppression : {path}")
+
+    for folder_name in folders_to_clean:
+        full_path = os.path.join(content_dir, folder_name)
+        
+        if os.path.exists(full_path):
+            # SÉCURITÉ : Vérification d'Assets Unreal restants
+            has_assets = False
+            for root, dirs, files in os.walk(full_path):
+                for file in files:
+                    if file.endswith(".uasset") or file.endswith(".umap"):
+                        has_assets = True
+                        break
+                if has_assets: break
+            
+            if has_assets:
+                unreal.log_error(f"❌ SUPPRESSION ANNULÉE : {folder_name} contient encore des .uasset.")
+                continue
+
+            # Suppression propre
+            try:
+                shutil.rmtree(full_path, onerror=gestion_erreur) 
+                unreal.log(f"✅ Dossier nettoyé : {folder_name}")
+            except Exception as e:
+                unreal.log_error(f"Erreur : {e}")
+        else:
+            unreal.log(f"Déjà propre : {folder_name}")
+
+    unreal.log("--- TERMINÉ ---")
+
+script_04_nettoyage_intelligent()
+[2026.09.04-14.54.04:331][561]LogPython: --- DÉBUT SCRIPT 4 : NETTOYAGE INTELLIGENT ---
+[2026.09.04-14.54.04:332][561]LogPython: Déjà propre : FirstPerson
+[2026.09.04-14.54.04:332][561]LogPython: Déjà propre : Characters
+[2026.09.04-14.54.04:332][561]LogPython: Déjà propre : LevelPrototyping
+[2026.09.04-14.54.04:332][561]LogPython: Déjà propre : Input
+[2026.09.04-14.54.04:332][561]LogPython: --- TERMINÉ ---
+[2026.09.04-14.54.04:352][561]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.09.04-14.55.08:432][322]LogSlate: Window 'Save Level As' being destroyed
+[2026.09.04-14.55.08:863][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project/Maps/Development/LVL_BaseTest" FILE="D:/JV III/Chayer_Lou_TP1/Content/Project/Maps/Development/LVL_BaseTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.09.04-14.55.08:899][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2026.09.04-14.55.09:052][322]LogSavePackage: Moving output files for package: /Game/Project/Maps/Development/LVL_BaseTest
+[2026.09.04-14.55.09:052][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/LVL_BaseTestA3961ECF4BBB85F392C56785F49E44C5.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/Project/Maps/Development/LVL_BaseTest.umap'
+[2026.09.04-14.55.09:065][322]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.04-14.55.09:156][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.09.04-14.55.09:172][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.09.04-14.55.09:186][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.09.04-14.55.09:187][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Project/Maps/Development/LVL_BaseTest_HLOD0_Instancing] ([1] browsable assets)...
+[2026.09.04-14.55.09:187][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/Project/Maps/Development/LVL_BaseTest_HLOD0_Instancing]
+[2026.09.04-14.55.09:210][322]LogSavePackage: Moving output files for package: /Game/Project/Maps/Development/LVL_BaseTest_HLOD0_Instancing
+[2026.09.04-14.55.09:211][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/LVL_BaseTest_HLOD0_Instancing317BF8CD43C20B7046339DA443821A76.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/Project/Maps/Development/LVL_BaseTest_HLOD0_Instancing.uasset'
+[2026.09.04-14.55.09:217][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/UF/0ELJIBC3Q2NTA9477VC5PT
+[2026.09.04-14.55.09:217][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/0ELJIBC3Q2NTA9477VC5PT7D4B7EEE485F3B546AA10DBB83E8069B.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/UF/0ELJIBC3Q2NTA9477VC5PT.uasset'
+[2026.09.04-14.55.09:225][322]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Project/Maps/Development/LVL_BaseTest/C/C5/SBOZYWNW8PQFT8IUAU0P61
+[2026.09.04-14.55.09:225][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/SBOZYWNW8PQFT8IUAU0P614A4321FC49F1CA4D00EC3CA87C9FE96E.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalObjects__/Project/Maps/Development/LVL_BaseTest/C/C5/SBOZYWNW8PQFT8IUAU0P61.uasset'
+[2026.09.04-14.55.09:235][322]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Project/Maps/Development/LVL_BaseTest/3/2T/HW96J3O7WK9NCR20NQTVOH
+[2026.09.04-14.55.09:235][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/HW96J3O7WK9NCR20NQTVOH79C85E76408AA0131714999DD8123548.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalObjects__/Project/Maps/Development/LVL_BaseTest/3/2T/HW96J3O7WK9NCR20NQTVOH.uasset'
+[2026.09.04-14.55.09:242][322]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Project/Maps/Development/LVL_BaseTest/E/BZ/PD10MLMDIQT0CJ5TZ0SNYW
+[2026.09.04-14.55.09:242][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/PD10MLMDIQT0CJ5TZ0SNYWDD85C9E347A01693380C6AAA49EE7D8F.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalObjects__/Project/Maps/Development/LVL_BaseTest/E/BZ/PD10MLMDIQT0CJ5TZ0SNYW.uasset'
+[2026.09.04-14.55.09:249][322]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Project/Maps/Development/LVL_BaseTest/D/KX/23SUC4S6Q6C7LUNYP7AIEX
+[2026.09.04-14.55.09:249][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/23SUC4S6Q6C7LUNYP7AIEX1CFCD0D74268813FFBB6C0B5FF122487.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalObjects__/Project/Maps/Development/LVL_BaseTest/D/KX/23SUC4S6Q6C7LUNYP7AIEX.uasset'
+[2026.09.04-14.55.09:255][322]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Project/Maps/Development/LVL_BaseTest/D/H9/E56ZE7E4QBW0KMJJCTCYSD
+[2026.09.04-14.55.09:255][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/E56ZE7E4QBW0KMJJCTCYSD7DDFFE4549F6455537D0F1B15AC42EF8.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalObjects__/Project/Maps/Development/LVL_BaseTest/D/H9/E56ZE7E4QBW0KMJJCTCYSD.uasset'
+[2026.09.04-14.55.09:274][322]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Project/Maps/Development/LVL_BaseTest/4/BT/7M4A9233MEPI6FSTB943ZN
+[2026.09.04-14.55.09:274][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/7M4A9233MEPI6FSTB943ZN692FBF5146943B74EAC49FAEAE52D47B.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalObjects__/Project/Maps/Development/LVL_BaseTest/4/BT/7M4A9233MEPI6FSTB943ZN.uasset'
+[2026.09.04-14.55.09:347][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/7/KA/M0999Y77M6619OK6756HP0
+[2026.09.04-14.55.09:347][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/M0999Y77M6619OK6756HP0DEC94C4F4847FDDB489057ADF3EE1B1D.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/7/KA/M0999Y77M6619OK6756HP0.uasset'
+[2026.09.04-14.55.09:356][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/6/TH/M6OMXYC6UE2T9NV5U5HNIC
+[2026.09.04-14.55.09:356][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/M6OMXYC6UE2T9NV5U5HNIC7788B57D483CF2B5F1D1D5A0CEE98179.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/6/TH/M6OMXYC6UE2T9NV5U5HNIC.uasset'
+[2026.09.04-14.55.09:363][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/4/9N/BQMJJYG54NDJYI34JLCOYZ
+[2026.09.04-14.55.09:363][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/BQMJJYG54NDJYI34JLCOYZ81D4EDB740ED3ABE22C9318187054F19.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/4/9N/BQMJJYG54NDJYI34JLCOYZ.uasset'
+[2026.09.04-14.55.09:371][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/OX/M3EICB931V8Y5AMXGJ235V
+[2026.09.04-14.55.09:371][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/M3EICB931V8Y5AMXGJ235V73618C8C4C509AC89D99C7B60EA0410F.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/OX/M3EICB931V8Y5AMXGJ235V.uasset'
+[2026.09.04-14.55.09:378][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/D/CK/RS14Z2VMNX2WRFCM1THUOA
+[2026.09.04-14.55.09:378][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/RS14Z2VMNX2WRFCM1THUOAD4F1362B42AD486D045FFABBF69DDB28.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/D/CK/RS14Z2VMNX2WRFCM1THUOA.uasset'
+[2026.09.04-14.55.09:385][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/1/DU/2QUQK79UIMYOKEWXPVO3LN
+[2026.09.04-14.55.09:385][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/2QUQK79UIMYOKEWXPVO3LN137271D74999ADECB9EB9AB607B5BE72.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/1/DU/2QUQK79UIMYOKEWXPVO3LN.uasset'
+[2026.09.04-14.55.09:393][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/2/RT/9IMK34REWYPVZH3B8YY078
+[2026.09.04-14.55.09:393][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/9IMK34REWYPVZH3B8YY078A71663284E6A2E1EF14063904B91AB71.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/2/RT/9IMK34REWYPVZH3B8YY078.uasset'
+[2026.09.04-14.55.09:797][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/A/6Y/EN9A3HDQSJKI795N2QFFQ4
+[2026.09.04-14.55.09:797][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/EN9A3HDQSJKI795N2QFFQ429A9D2B34924B987DAE73991593B0174.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/A/6Y/EN9A3HDQSJKI795N2QFFQ4.uasset'
+[2026.09.04-14.55.09:805][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/0/OO/9Q7UKOEW0TY02X7J1S9AL0
+[2026.09.04-14.55.09:806][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/9Q7UKOEW0TY02X7J1S9AL022B8E50F4A27081B04CBDEAABC318BDF.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/0/OO/9Q7UKOEW0TY02X7J1S9AL0.uasset'
+[2026.09.04-14.55.09:832][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/1/8Q/U1VJK5KTXC3AIGL8ERXBF9
+[2026.09.04-14.55.09:832][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/U1VJK5KTXC3AIGL8ERXBF98ADBB1A846A8F45798E35FBA1CAB6526.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/1/8Q/U1VJK5KTXC3AIGL8ERXBF9.uasset'
+[2026.09.04-14.55.09:865][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/2/7K/A6VEWNDI1BYX60JPZC2ZOJ
+[2026.09.04-14.55.09:865][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/A6VEWNDI1BYX60JPZC2ZOJ7183B7DB496045C9528231931B629DA9.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/2/7K/A6VEWNDI1BYX60JPZC2ZOJ.uasset'
+[2026.09.04-14.55.09:902][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/0/NV/79K5BQ3U5VGOB3PUXXTED0
+[2026.09.04-14.55.09:902][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/79K5BQ3U5VGOB3PUXXTED001D1AF1A4AA04CC5543F46B1111B92F9.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/0/NV/79K5BQ3U5VGOB3PUXXTED0.uasset'
+[2026.09.04-14.55.09:916][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/D/S0/K5UF9IVE33NADR58DML65R
+[2026.09.04-14.55.09:916][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/K5UF9IVE33NADR58DML65R788275A44096764E88BF61A92B373D01.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/D/S0/K5UF9IVE33NADR58DML65R.uasset'
+[2026.09.04-14.55.09:931][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/0/9S/FU01QM8292F45LYYWKTIXE
+[2026.09.04-14.55.09:931][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/FU01QM8292F45LYYWKTIXE17A2D538414401550A56DA8714322D75.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/0/9S/FU01QM8292F45LYYWKTIXE.uasset'
+[2026.09.04-14.55.09:947][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/7/IW/V8OOY9LIY5ZNB29QLBUKHB
+[2026.09.04-14.55.09:947][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/V8OOY9LIY5ZNB29QLBUKHB95E3F4E842D8F24106EEEB8BF574D3C0.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/7/IW/V8OOY9LIY5ZNB29QLBUKHB.uasset'
+[2026.09.04-14.55.09:961][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/9/LT/IPWBDR7L2883B0QF6JEQ1M
+[2026.09.04-14.55.09:961][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/IPWBDR7L2883B0QF6JEQ1MC28994C74238D496D21849B811BF5727.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/9/LT/IPWBDR7L2883B0QF6JEQ1M.uasset'
+[2026.09.04-14.55.09:979][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/8/WN/J7UNHQFY1ZPCK19J68SYT8
+[2026.09.04-14.55.09:979][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/J7UNHQFY1ZPCK19J68SYT8A6770AFC474C47068B325995A8F189C4.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/8/WN/J7UNHQFY1ZPCK19J68SYT8.uasset'
+[2026.09.04-14.55.09:998][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/MY/VAQ9BWSJ82WYKERCQTUQ6Q
+[2026.09.04-14.55.09:998][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/VAQ9BWSJ82WYKERCQTUQ6Q36C104484094B1332D76439021E40F0E.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/MY/VAQ9BWSJ82WYKERCQTUQ6Q.uasset'
+[2026.09.04-14.55.10:014][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/F/53/D478ERM5DMAZYIVFMSBPA1
+[2026.09.04-14.55.10:014][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/D478ERM5DMAZYIVFMSBPA10E0AFCCC4B04E70ED9972DA84934F58E.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/F/53/D478ERM5DMAZYIVFMSBPA1.uasset'
+[2026.09.04-14.55.10:028][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/D/13/O0TJP3FWNR99OKPCSP7D0C
+[2026.09.04-14.55.10:029][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/O0TJP3FWNR99OKPCSP7D0C104E7FA64D3498546489E8A0C7396E07.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/D/13/O0TJP3FWNR99OKPCSP7D0C.uasset'
+[2026.09.04-14.55.10:043][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/8/SW/X9MWHYJGR57XT2GVAF15MD
+[2026.09.04-14.55.10:043][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/X9MWHYJGR57XT2GVAF15MD70AEEA0C48DD3B94512D0C8B7DD1A47B.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/8/SW/X9MWHYJGR57XT2GVAF15MD.uasset'
+[2026.09.04-14.55.10:056][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/E/BL/4F8T38DTJTLHUBU9E5Q5US
+[2026.09.04-14.55.10:056][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/4F8T38DTJTLHUBU9E5Q5US192BA5D64E4ECD2A6155A0930943CA65.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/E/BL/4F8T38DTJTLHUBU9E5Q5US.uasset'
+[2026.09.04-14.55.10:070][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/D/6Q/7GANMIDPOUWZVI4TOCLO6U
+[2026.09.04-14.55.10:070][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/7GANMIDPOUWZVI4TOCLO6UCECF245F47A81C0F0563E58F2876DF51.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/D/6Q/7GANMIDPOUWZVI4TOCLO6U.uasset'
+[2026.09.04-14.55.10:085][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/A/CG/6YTEECV342PP4D2AV95Z07
+[2026.09.04-14.55.10:085][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/6YTEECV342PP4D2AV95Z0742BEA46C48436925851F33AF22674C98.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/A/CG/6YTEECV342PP4D2AV95Z07.uasset'
+[2026.09.04-14.55.10:098][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/5/MF/YD6Q435905E80A5KBWONDD
+[2026.09.04-14.55.10:098][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/YD6Q435905E80A5KBWONDDFC310FCB47660F18ADE6E0B2BD0EE155.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/5/MF/YD6Q435905E80A5KBWONDD.uasset'
+[2026.09.04-14.55.10:114][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/1/PK/8D43GOCMMSSB0TYKLT1TSZ
+[2026.09.04-14.55.10:114][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/8D43GOCMMSSB0TYKLT1TSZB763B1C2467C7749A264C89253B9E33F.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/1/PK/8D43GOCMMSSB0TYKLT1TSZ.uasset'
+[2026.09.04-14.55.10:180][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/VK/461OIPB50YWU8UCQD26L6S
+[2026.09.04-14.55.10:180][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/461OIPB50YWU8UCQD26L6S2F2E7B174BA91605118F3085B0DB6140.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/VK/461OIPB50YWU8UCQD26L6S.uasset'
+[2026.09.04-14.55.10:198][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/5/DE/E1DASRK1V6M1U24JPG6EIM
+[2026.09.04-14.55.10:198][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/E1DASRK1V6M1U24JPG6EIM305773964083EFCCF7924AB3B2318E9B.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/5/DE/E1DASRK1V6M1U24JPG6EIM.uasset'
+[2026.09.04-14.55.10:213][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/0/QJ/8GJ3KB4HTG91SO382VVBJW
+[2026.09.04-14.55.10:213][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/8GJ3KB4HTG91SO382VVBJW33B3E48B4F21C2035F4D438E3AADCB02.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/0/QJ/8GJ3KB4HTG91SO382VVBJW.uasset'
+[2026.09.04-14.55.10:228][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/E/RN/VIVNDX30RE47HJT807OI93
+[2026.09.04-14.55.10:228][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/VIVNDX30RE47HJT807OI93A7B8567B428A4CD37F06E1AB3DCCE2D0.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/E/RN/VIVNDX30RE47HJT807OI93.uasset'
+[2026.09.04-14.55.10:245][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/1/N3/HYE5HD58BWVI0URPLHEQGH
+[2026.09.04-14.55.10:245][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/HYE5HD58BWVI0URPLHEQGH29E4191A48854276CEBA58AAF15B8ECB.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/1/N3/HYE5HD58BWVI0URPLHEQGH.uasset'
+[2026.09.04-14.55.10:259][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/6/B1/6B49WJHYM3D37ZBD1I4Q00
+[2026.09.04-14.55.10:259][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/6B49WJHYM3D37ZBD1I4Q00BA8965D54BEA900B7C5A2A97234140FB.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/6/B1/6B49WJHYM3D37ZBD1I4Q00.uasset'
+[2026.09.04-14.55.10:274][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/8/0H/C6WLNXVHA8FWCRXK61JOJZ
+[2026.09.04-14.55.10:274][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/C6WLNXVHA8FWCRXK61JOJZ11E79CCD4BFBCEBC5D25548017C51133.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/8/0H/C6WLNXVHA8FWCRXK61JOJZ.uasset'
+[2026.09.04-14.55.10:287][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/F/3V/XJ05HRZS9T43O1K0DSBFDW
+[2026.09.04-14.55.10:287][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/XJ05HRZS9T43O1K0DSBFDWB422BF78495EF3FBA05A7DB161808B68.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/F/3V/XJ05HRZS9T43O1K0DSBFDW.uasset'
+[2026.09.04-14.55.10:312][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/6/3C/46MXPNINOBWDSYW6MQEHJO
+[2026.09.04-14.55.10:312][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/46MXPNINOBWDSYW6MQEHJO2211658649D4C7B93904F1907DF9E480.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/6/3C/46MXPNINOBWDSYW6MQEHJO.uasset'
+[2026.09.04-14.55.10:325][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/M3/BJFZH8MVOU571REPN0GE9U
+[2026.09.04-14.55.10:325][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/BJFZH8MVOU571REPN0GE9U1462BB2244998D60EAE7ADB705254912.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/M3/BJFZH8MVOU571REPN0GE9U.uasset'
+[2026.09.04-14.55.10:340][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/9/8W/WZGWK5G2DKNTW4T77LLJRO
+[2026.09.04-14.55.10:340][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/WZGWK5G2DKNTW4T77LLJRO878DA3494D2191BD2E34469E09BC3524.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/9/8W/WZGWK5G2DKNTW4T77LLJRO.uasset'
+[2026.09.04-14.55.10:354][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/8V/LVP7JDEWHLXR4OL9UUHS64
+[2026.09.04-14.55.10:355][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/LVP7JDEWHLXR4OL9UUHS6472B88E2448362C6E0182948FAD81BB1E.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/8V/LVP7JDEWHLXR4OL9UUHS64.uasset'
+[2026.09.04-14.55.10:372][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/I2/VCWZPQJ2H7LF5FPZPS77CJ
+[2026.09.04-14.55.10:372][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/VCWZPQJ2H7LF5FPZPS77CJ26F739EE46D6170CE2BAD8B1B44EE510.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/I2/VCWZPQJ2H7LF5FPZPS77CJ.uasset'
+[2026.09.04-14.55.10:386][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/5/FM/4OTC6YLKLUSCF2NETG0N07
+[2026.09.04-14.55.10:386][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/4OTC6YLKLUSCF2NETG0N07081CE12D47A08247327C919A2102BDE6.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/5/FM/4OTC6YLKLUSCF2NETG0N07.uasset'
+[2026.09.04-14.55.10:402][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/5/RV/C8MYBC5GAC4YVRCNFW48E7
+[2026.09.04-14.55.10:402][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/C8MYBC5GAC4YVRCNFW48E78D69C2314D77CC17933BFC8BAEB444AD.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/5/RV/C8MYBC5GAC4YVRCNFW48E7.uasset'
+[2026.09.04-14.55.10:419][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/4/RO/1DCJEODHMA99OQV8XZTR9X
+[2026.09.04-14.55.10:419][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/1DCJEODHMA99OQV8XZTR9XA02304BE4B18ACBACA9EA39C9CF2B00B.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/4/RO/1DCJEODHMA99OQV8XZTR9X.uasset'
+[2026.09.04-14.55.10:433][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/2/AP/7RK2OHLUURAQECLZAOVOM7
+[2026.09.04-14.55.10:433][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/7RK2OHLUURAQECLZAOVOM7B819F03545FC2F0DC69B4D8C80AB969E.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/2/AP/7RK2OHLUURAQECLZAOVOM7.uasset'
+[2026.09.04-14.55.10:448][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/6/UW/1K0RHY05BAYW2LKFG31ZVP
+[2026.09.04-14.55.10:448][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/1K0RHY05BAYW2LKFG31ZVP0A70F2F6414C17DB650A749C29018842.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/6/UW/1K0RHY05BAYW2LKFG31ZVP.uasset'
+[2026.09.04-14.55.10:461][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/6/Y6/1QL278SVMMIUYAD5VDWSS7
+[2026.09.04-14.55.10:461][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/1QL278SVMMIUYAD5VDWSS7C27DC58A4E8CD168ACF0109A6A93C398.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/6/Y6/1QL278SVMMIUYAD5VDWSS7.uasset'
+[2026.09.04-14.55.10:475][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/9/Y5/LFS90RR7CLMQ6G7LH6XFPC
+[2026.09.04-14.55.10:475][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/LFS90RR7CLMQ6G7LH6XFPC4BE2719742B9B872B92A03BFE57309A6.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/9/Y5/LFS90RR7CLMQ6G7LH6XFPC.uasset'
+[2026.09.04-14.55.10:488][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/3/0B/SA1NU2E3S19GR2F4CZV96K
+[2026.09.04-14.55.10:489][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/SA1NU2E3S19GR2F4CZV96K570AD65D45FA37BB2CCF76AA4C48BDF8.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/3/0B/SA1NU2E3S19GR2F4CZV96K.uasset'
+[2026.09.04-14.55.10:504][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/6/I5/7JZSPVZUHVH1VCFW8EUFY8
+[2026.09.04-14.55.10:505][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/7JZSPVZUHVH1VCFW8EUFY8FCACF4FE4DACDB4853CD9C87B33CF514.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/6/I5/7JZSPVZUHVH1VCFW8EUFY8.uasset'
+[2026.09.04-14.55.10:522][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/8/UX/P27B7605J11HJV6IXX5381
+[2026.09.04-14.55.10:522][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/P27B7605J11HJV6IXX53817FF228CD4582777D22080F8399E3F838.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/8/UX/P27B7605J11HJV6IXX5381.uasset'
+[2026.09.04-14.55.10:535][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/9/AZ/800BPCOEFMOZVU4PNWJTN8
+[2026.09.04-14.55.10:535][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/800BPCOEFMOZVU4PNWJTN81654E38240501AE0373CB5A2117C17B0.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/9/AZ/800BPCOEFMOZVU4PNWJTN8.uasset'
+[2026.09.04-14.55.10:549][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/2/6O/RL1C97RQNSJTIANKPMO2CA
+[2026.09.04-14.55.10:549][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/RL1C97RQNSJTIANKPMO2CA41403DE0422155EA6B282180969913F2.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/2/6O/RL1C97RQNSJTIANKPMO2CA.uasset'
+[2026.09.04-14.55.10:563][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/3/34/2NU1WOMPU5MGLS8WO3SBVI
+[2026.09.04-14.55.10:563][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/2NU1WOMPU5MGLS8WO3SBVIB6CCD6B44C7D91BC48E5CCB0821BFF41.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/3/34/2NU1WOMPU5MGLS8WO3SBVI.uasset'
+[2026.09.04-14.55.10:577][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/D/BW/Q9A311NYPZMQ3YGGS0QCP3
+[2026.09.04-14.55.10:577][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/Q9A311NYPZMQ3YGGS0QCP31D00C7824D8EB50285362DB739E35644.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/D/BW/Q9A311NYPZMQ3YGGS0QCP3.uasset'
+[2026.09.04-14.55.10:592][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/3Q/Q5YAFID50DPH622SN6FRPJ
+[2026.09.04-14.55.10:592][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/Q5YAFID50DPH622SN6FRPJ42BA18444F205B04D60E02B77D2939A2.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/3Q/Q5YAFID50DPH622SN6FRPJ.uasset'
+[2026.09.04-14.55.10:612][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/9/TZ/AP9DBXW7XRCJD9LYE6SXFE
+[2026.09.04-14.55.10:612][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/AP9DBXW7XRCJD9LYE6SXFE5785798747D2C9A3282F759E434AFF61.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/9/TZ/AP9DBXW7XRCJD9LYE6SXFE.uasset'
+[2026.09.04-14.55.10:631][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/NZ/E5AYG1UF4CNX1WRH3X7LO4
+[2026.09.04-14.55.10:631][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/E5AYG1UF4CNX1WRH3X7LO4BD8F7EEF4151913D5224BBBD46E8E6A5.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/NZ/E5AYG1UF4CNX1WRH3X7LO4.uasset'
+[2026.09.04-14.55.10:646][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/E/S4/W59N0NST67N75RDC9CVEBV
+[2026.09.04-14.55.10:646][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/W59N0NST67N75RDC9CVEBVC03F3AD54B4D6E58D3E71BBB569B683D.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/E/S4/W59N0NST67N75RDC9CVEBV.uasset'
+[2026.09.04-14.55.10:659][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/D/L3/LZA3DPT38U6VVHJCHX2KZH
+[2026.09.04-14.55.10:659][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/LZA3DPT38U6VVHJCHX2KZH61BF550D4A4EBC21B89AA48B292E720C.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/D/L3/LZA3DPT38U6VVHJCHX2KZH.uasset'
+[2026.09.04-14.55.10:674][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/1/9F/ZRZCCY3HROBZVUHUE4O516
+[2026.09.04-14.55.10:674][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/ZRZCCY3HROBZVUHUE4O516F381424640A5259AB8F0C097411C4914.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/1/9F/ZRZCCY3HROBZVUHUE4O516.uasset'
+[2026.09.04-14.55.10:691][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/UX/O304NBH37Y01OCFEJ7XBCF
+[2026.09.04-14.55.10:691][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/O304NBH37Y01OCFEJ7XBCF56CC921C4925689C3DE40B82D9CCDB6B.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/UX/O304NBH37Y01OCFEJ7XBCF.uasset'
+[2026.09.04-14.55.10:705][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/9/6X/HHHLYPFYB7HJEBUAZHTNAG
+[2026.09.04-14.55.10:705][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/HHHLYPFYB7HJEBUAZHTNAG6DD3945E4F5CA5801055368E7B925CB3.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/9/6X/HHHLYPFYB7HJEBUAZHTNAG.uasset'
+[2026.09.04-14.55.10:720][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/7/J4/0I11U280BAO2BTRCC7QZIS
+[2026.09.04-14.55.10:720][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/0I11U280BAO2BTRCC7QZIS59872A5B4212636CF39136B7677BAFF4.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/7/J4/0I11U280BAO2BTRCC7QZIS.uasset'
+[2026.09.04-14.55.10:733][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/0/PE/ATGQHENQHEO25Q761U4QXE
+[2026.09.04-14.55.10:733][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/ATGQHENQHEO25Q761U4QXEB4AFEC324B0B28FD20F2E4A88B38DFA8.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/0/PE/ATGQHENQHEO25Q761U4QXE.uasset'
+[2026.09.04-14.55.10:747][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/VJ/6JX982M2JE11A1474LCJTO
+[2026.09.04-14.55.10:748][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/6JX982M2JE11A1474LCJTO976CE40D40173D6D4121779838C37DCD.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/B/VJ/6JX982M2JE11A1474LCJTO.uasset'
+[2026.09.04-14.55.10:761][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/0/EX/PYRXN63DFA5OEUA0CRWPSA
+[2026.09.04-14.55.10:761][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/PYRXN63DFA5OEUA0CRWPSA35A75A564A86C4ECA4ED7692C3FD35AD.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/0/EX/PYRXN63DFA5OEUA0CRWPSA.uasset'
+[2026.09.04-14.55.10:774][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/A/75/VQTJVR1BE3AXE3LH7H0Y9C
+[2026.09.04-14.55.10:774][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/VQTJVR1BE3AXE3LH7H0Y9C59D27A7F42B21BAD649C6DAB06BE8484.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/A/75/VQTJVR1BE3AXE3LH7H0Y9C.uasset'
+[2026.09.04-14.55.10:788][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/E/V0/UAKR8QKHW663ZVKGIIGL7M
+[2026.09.04-14.55.10:788][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/UAKR8QKHW663ZVKGIIGL7MEEA2CC5E4F405E2CAE9F189612C0BA02.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/E/V0/UAKR8QKHW663ZVKGIIGL7M.uasset'
+[2026.09.04-14.55.10:809][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/3/R0/57RQHRW52JPRSV9W3KLUC0
+[2026.09.04-14.55.10:810][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/57RQHRW52JPRSV9W3KLUC086A15F0D4B34C5E88ADB0C89E83FCD30.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/3/R0/57RQHRW52JPRSV9W3KLUC0.uasset'
+[2026.09.04-14.55.10:825][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/8/BM/DG7KSIBKLYB6J6WH70X0YE
+[2026.09.04-14.55.10:825][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/DG7KSIBKLYB6J6WH70X0YE1E9045B04DEE953E6232B39C3A97E66A.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/8/BM/DG7KSIBKLYB6J6WH70X0YE.uasset'
+[2026.09.04-14.55.10:838][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/D/A0/GJ82DX37CPZBUIQQ4KHVSQ
+[2026.09.04-14.55.10:838][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/GJ82DX37CPZBUIQQ4KHVSQ31D793D0461600BDC191589417A28948.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/D/A0/GJ82DX37CPZBUIQQ4KHVSQ.uasset'
+[2026.09.04-14.55.10:852][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/C/6G/3B86UGMU1UA8E0H198KE3P
+[2026.09.04-14.55.10:852][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/3B86UGMU1UA8E0H198KE3P446DD72440F82E383BDC3C9AE6E87693.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/C/6G/3B86UGMU1UA8E0H198KE3P.uasset'
+[2026.09.04-14.55.10:867][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/2/0P/0AW1G6SNCPKBFHHB0112SP
+[2026.09.04-14.55.10:867][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/0AW1G6SNCPKBFHHB0112SPAE3D15124CF69D4E0996039CCEBBEF33.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/2/0P/0AW1G6SNCPKBFHHB0112SP.uasset'
+[2026.09.04-14.55.10:882][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/2/76/A7QKGON763UNJ0XOERP6VU
+[2026.09.04-14.55.10:882][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/A7QKGON763UNJ0XOERP6VU55FE57E2424FBB30297C4EA54A67573E.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/2/76/A7QKGON763UNJ0XOERP6VU.uasset'
+[2026.09.04-14.55.10:897][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/8/WN/A5UOZ7CUFXZXBRRYU7F5QH
+[2026.09.04-14.55.10:897][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/A5UOZ7CUFXZXBRRYU7F5QHA86B29B6448C10D0F0BAD4B79B8BD053.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/8/WN/A5UOZ7CUFXZXBRRYU7F5QH.uasset'
+[2026.09.04-14.55.10:910][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/C/P4/KUDMJBNT8GD43M0ILRMLGC
+[2026.09.04-14.55.10:910][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/KUDMJBNT8GD43M0ILRMLGC44F519DF45CE168758CAEFA5EC97F974.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/C/P4/KUDMJBNT8GD43M0ILRMLGC.uasset'
+[2026.09.04-14.55.10:924][322]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/0/3N/PHLFCMJ3KH6W28CO66R28S
+[2026.09.04-14.55.10:924][322]LogSavePackage: Moving 'D:/JV III/Chayer_Lou_TP1/Saved/PHLFCMJ3KH6W28CO66R28SD5750CB64415A6C68A99A69D57876231.tmp' to 'D:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Project/Maps/Development/LVL_BaseTest/0/3N/PHLFCMJ3KH6W28CO66R28S.uasset'
+[2026.09.04-14.55.10:927][322]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.86 sec (total: 2.04 sec)
+[2026.09.04-14.55.10:956][322]LogFileHelpers: Saving map 'LVL_BaseTest' took 2.517
+[2026.09.04-14.55.10:956][322]Cmd: MAP LOAD FILE="D:/JV III/Chayer_Lou_TP1/Content/Project/Maps/Development/LVL_BaseTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.09.04-14.55.11:002][322]LogWorld: UWorld::CleanupWorld for LVL_BaseTest, bSessionEnded=true, bCleanupResources=true
+[2026.09.04-14.55.11:002][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.04-14.55.11:002][322]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Project/Maps/Development/LVL_BaseTest.LVL_BaseTest
+[2026.09.04-14.55.11:027][322]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.09.04-14.55.11:044][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.09.04-14.55.11:046][322]LogStreaming: Display: FlushAsyncLoading(474): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.04-14.55.11:049][322]LogAudio: Display: Audio Device (ID: 1) registered with world 'LVL_BaseTest'.
+[2026.09.04-14.55.11:049][322]LogChaosDD: Creating Chaos Debug Draw Scene for world LVL_BaseTest
+[2026.09.04-14.55.11:051][322]LogWorldPartition: ULevel::OnLevelLoaded(LVL_BaseTest)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.09.04-14.55.11:051][322]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.09.04-14.55.11:051][322]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Project/Maps/Development/LVL_BaseTest.LVL_BaseTest, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.09.04-14.55.11:063][322]LogWorldPartition: Display: WorldPartition initialize took 12.029 ms (total: 241.278 ms)
+[2026.09.04-14.55.11:068][322]LogTexture: Display: Building textures: /Game/Project/Maps/Development/LVL_BaseTest.LVL_BaseTest:PersistentLevel.WorldPartitionMiniMap_UAID_3497F631D5890DD300_1296925927.MinimapTexture (TFO_AutoDXT VT, 2048x2048 x1x1x1) (Required Memory Estimate: 187.666666 MB), EncodeSpeed: Fast
+[2026.09.04-14.55.11:078][322]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.09.04-14.55.11:093][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2026.09.04-14.55.11:099][322]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.09.04-14.55.11:100][322]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,731ms to complete.
+[2026.09.04-14.55.11:170][322]LogContentValidation: Display: Starting to validate 85 assets
+[2026.09.04-14.55.11:170][322]LogContentValidation: Enabled validators:
+[2026.09.04-14.55.11:170][322]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.04-14.55.11:170][322]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.04-14.55.11:170][322]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.04-14.55.11:170][322]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.04-14.55.11:170][322]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.04-14.55.11:170][322]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.04-14.55.11:171][322]AssetCheck: /Game/Project/Maps/Development/LVL_BaseTest Validating asset
+[2026.09.04-14.55.11:171][322]AssetCheck: /Game/Project/Maps/Development/LVL_BaseTest_HLOD0_Instancing Validating asset
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: ================================================
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Total job queries 18 367, among them cache hits 3 827 (20.84%), DDC hits 12 356 (67.27%), Duplicates 1 578 (8.59%)
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Tracking 12 962 distinct input hashes that result in 11 861 distinct outputs (91.51%)
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: RAM used: 158,40 MiB of 1,60 GiB budget. Usage: 9.67%
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Shaders Compiled: 606
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Jobs assigned 606, completed 606 (100%)
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Average time worker was idle: 79.64 s
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Time job spent in pending queue: average 4.31 s, longest 43.56 s
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Job execution time: average 8.31 s, max 43.69 s
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Job life time (pending + execution): average 12.62 s, max 45.50
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Shader code size: total 9,597 MiB, numShaders 629, average 15,624 KiB, min 2,246 KiB, max 55,505 KiB
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 84.62 s
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.67%
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Jobs were issued in 167 batches (only local compilation was used), average 3.63 jobs/batch
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Average processing rate: 7.16 jobs/sec
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Total thread time: 730,966 s
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Total thread preprocess time: 128,165 s
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Percentage time preprocessing: 17.53%
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Effective parallelization: 8.64 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.863810
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display:                      FPathTracingBuildCloudAccelerationMapCS (compiled    1 times, average 4.58 sec, max 4.58 sec, min 4.58 sec)
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial (compiled    1 times, average 4.56 sec, max 4.56 sec, min 4.56 sec)
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    2 times, average 4.11 sec, max 6.58 sec, min 1.64 sec)
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   10 times, average 4.07 sec, max 12.77 sec, min 1.73 sec)
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   24 times, average 4.06 sec, max 25.59 sec, min 0.48 sec)
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 19.19% of total time (compiled   80 times, average 1.75 sec, max 2.07 sec, min 1.48 sec)
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 13.34% of total time (compiled   24 times, average 4.06 sec, max 25.59 sec, min 0.48 sec)
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.81% of total time (compiled   53 times, average 1.22 sec, max 21.65 sec, min 0.10 sec)
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.86% of total time (compiled   48 times, average 1.04 sec, max 7.86 sec, min 0.20 sec)
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display:                                             FDebugViewModeVS - 5.83% of total time (compiled   48 times, average 0.89 sec, max 17.48 sec, min 0.11 sec)
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: === Material stats ===
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Materials Translated:    142
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Material Translation Only: 0.03 s (34%)
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.09.04-14.55.11:181][322]LogShaderCompilers: Display: ================================================
+[2026.09.04-14.55.11:272][322]LogSlate: Took 0.004371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2026.09.04-14.55.11:292][322]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/JV III/Chayer_Lou_TP1/Saved/SourceControl/UncontrolledChangelists.json
+[2026.09.04-14.55.11:324][323]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
