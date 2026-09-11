@@ -2553,3 +2553,556 @@ Sampler Limit: 32
 [2026.09.11-04.52.40:419][732]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1695.986328, Update Interval: 304.163940
 [2026.09.11-04.53.10:174][821]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
 [2026.09.11-04.53.10:179][821]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Untitled' took 0.034
+[2026.09.11-04.56.16:571][683]LogStreaming: Display: FlushAsyncLoading(561): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.11-04.56.16:872][683]LogTexture: Display: Building textures: /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Textures/Foliage/T_Foliage_Atlas_Color_Mask.T_Foliage_Atlas_Color_Mask (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 11.333209 MB), EncodeSpeed: Fast
+[2026.09.11-04.56.16:872][683]LogStaticMesh: Display: Building static mesh SM_Fol_Bush_3 (Required Memory Estimate: 1.064177 MB)...
+[2026.09.11-04.56.16:892][683]LogStaticMesh: Built static mesh [0.02s] /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Bush_3.SM_Fol_Bush_3
+[2026.09.11-04.56.17:095][686]LogTexture: Display: Building textures: /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Textures/Foliage/T_Foliage_Atlas_BC.T_Foliage_Atlas_BC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.09.11-04.56.17:161][687]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Bush_3.SM_Fol_Bush_3
+[2026.09.11-04.56.17:161][687]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Bush_3.SM_Fol_Bush_3
+[2026.09.11-04.56.17:162][687]LogActorFactory: Actor Factory spawned StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Bush_3.SM_Fol_Bush_3 as actor: StaticMeshActor /Game/Untitled.Untitled:PersistentLevel.StaticMeshActor_6
+[2026.09.11-04.56.17:200][688]LogTexture: Display: Building textures: /Game/StyleHex_Studio/Shared_Resources/Free_Packs/Shared_Textures/Utility/T_White_Linear.T_White_Linear (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.583295 MB), EncodeSpeed: Fast
+[2026.09.11-04.56.17:204][689]LogTexture: Display: Building textures: /Game/StyleHex_Studio/Shared_Resources/Free_Packs/Shared_Textures/Utility/T_Default_Normal.T_Default_Normal (TFO_BC5, 128x128 x1x1x1) (Required Memory Estimate: 5.62493 MB), EncodeSpeed: Fast
+[2026.09.11-04.56.17:251][691]LogTexture: Display: Building textures: /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Textures/Foliage/T_Foliage_Atlas_Opacity.T_Foliage_Atlas_Opacity (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.999984 MB), EncodeSpeed: Fast
+[2026.09.11-04.56.18:069][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.09.11-04.56.18:072][747]LogEditorActor: Deleted 0 Actors (0.030 secs)
+[2026.09.11-04.56.18:084][747]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Bush_3.SM_Fol_Bush_3
+[2026.09.11-04.56.18:084][747]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Bush_3.SM_Fol_Bush_3
+[2026.09.11-04.56.18:087][747]LogActorFactory: Actor Factory spawned StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Bush_3.SM_Fol_Bush_3 as actor: StaticMeshActor /Game/Untitled.Untitled:PersistentLevel.StaticMeshActor_UAID_9C6B00A53C7E870003_1264146596
+[2026.09.11-04.56.19:398][822]LogPSOHitching: Encountered 100 PSO creation hitches so far (53 graphics, 47 compute). 0 of them were precached.
+[2026.09.11-04.56.42:270][859]LogStreaming: Display: FlushAsyncLoading(562): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.11-04.56.42:502][859]LogTexture: Display: Building textures: /Game/StyleHex_Studio/Shared_Resources/Free_Packs/Shared_Textures/Nosies/T_Bluenoise.T_Bluenoise (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.645795 MB), EncodeSpeed: Fast
+[2026.09.11-04.56.42:502][859]LogTexture: Display: Building textures: /Game/StyleHex_Studio/Shared_Resources/Free_Packs/Shared_Textures/Utility/T_Gradient_Linear.T_Gradient_Linear (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.583295 MB), EncodeSpeed: Fast
+[2026.09.11-04.56.42:509][859]LogTexture: Display: Building textures: /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Textures/Foliage/T_Foliage_Grass_Atlas_Opacity.T_Foliage_Grass_Atlas_Opacity (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 102.583323 MB), EncodeSpeed: Fast
+[2026.09.11-04.56.42:510][859]LogStaticMesh: Display: Building static mesh SM_Fol_Grass_Clump_1 (Required Memory Estimate: 0.182855 MB)...
+[2026.09.11-04.56.42:523][859]LogStaticMesh: Built static mesh [0.01s] /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Grass_Clump_1.SM_Fol_Grass_Clump_1
+[2026.09.11-04.56.42:591][859]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Grass_Clump_1.SM_Fol_Grass_Clump_1
+[2026.09.11-04.56.42:591][859]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Grass_Clump_1.SM_Fol_Grass_Clump_1
+[2026.09.11-04.56.42:592][859]LogActorFactory: Actor Factory spawned StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Grass_Clump_1.SM_Fol_Grass_Clump_1 as actor: StaticMeshActor /Game/Untitled.Untitled:PersistentLevel.StaticMeshActor_7
+[2026.09.11-04.56.43:554][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.09.11-04.56.43:559][915]LogEditorActor: Deleted 0 Actors (0.040 secs)
+[2026.09.11-04.56.43:570][915]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Grass_Clump_1.SM_Fol_Grass_Clump_1
+[2026.09.11-04.56.43:570][915]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Grass_Clump_1.SM_Fol_Grass_Clump_1
+[2026.09.11-04.56.43:574][915]LogActorFactory: Actor Factory spawned StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Grass_Clump_1.SM_Fol_Grass_Clump_1 as actor: StaticMeshActor /Game/Untitled.Untitled:PersistentLevel.StaticMeshActor_UAID_9C6B00A53C7E870003_1289632597
+[2026.09.11-04.56.54:128][666]LogStreaming: Display: FlushAsyncLoading(563): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.11-04.56.54:131][666]LogStaticMesh: Display: Building static mesh SM_Fol_Plant_6 (Required Memory Estimate: 0.861355 MB)...
+[2026.09.11-04.56.54:148][666]LogStaticMesh: Built static mesh [0.02s] /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_6.SM_Fol_Plant_6
+[2026.09.11-04.56.54:352][673]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_6.SM_Fol_Plant_6
+[2026.09.11-04.56.54:352][673]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_6.SM_Fol_Plant_6
+[2026.09.11-04.56.54:352][673]LogActorFactory: Actor Factory spawned StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_6.SM_Fol_Plant_6 as actor: StaticMeshActor /Game/Untitled.Untitled:PersistentLevel.StaticMeshActor_8
+[2026.09.11-04.56.55:389][783]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.09.11-04.56.55:395][783]LogEditorActor: Deleted 0 Actors (0.022 secs)
+[2026.09.11-04.56.55:401][783]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_6.SM_Fol_Plant_6
+[2026.09.11-04.56.55:401][783]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_6.SM_Fol_Plant_6
+[2026.09.11-04.56.55:403][783]LogActorFactory: Actor Factory spawned StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_6.SM_Fol_Plant_6 as actor: StaticMeshActor /Game/Untitled.Untitled:PersistentLevel.StaticMeshActor_UAID_9C6B00A53C7E870003_1301463598
+[2026.09.11-04.56.59:550][163]LogStreaming: Display: FlushAsyncLoading(564): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.11-04.56.59:551][163]LogStaticMesh: Display: Building static mesh SM_Fol_Plant_19 (Required Memory Estimate: 0.11077 MB)...
+[2026.09.11-04.56.59:554][163]LogStaticMesh: Built static mesh [0.00s] /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_19.SM_Fol_Plant_19
+[2026.09.11-04.57.00:476][254]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_19.SM_Fol_Plant_19
+[2026.09.11-04.57.00:476][254]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_19.SM_Fol_Plant_19
+[2026.09.11-04.57.00:477][254]LogActorFactory: Actor Factory spawned StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_19.SM_Fol_Plant_19 as actor: StaticMeshActor /Game/Untitled.Untitled:PersistentLevel.StaticMeshActor_9
+[2026.09.11-04.57.00:581][260]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.09.11-04.57.00:586][260]LogEditorActor: Deleted 0 Actors (0.023 secs)
+[2026.09.11-04.57.00:616][261]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_19.SM_Fol_Plant_19
+[2026.09.11-04.57.00:616][261]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_19.SM_Fol_Plant_19
+[2026.09.11-04.57.00:616][261]LogActorFactory: Actor Factory spawned StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_19.SM_Fol_Plant_19 as actor: StaticMeshActor /Game/Untitled.Untitled:PersistentLevel.StaticMeshActor_10
+[2026.09.11-04.57.01:586][370]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2026.09.11-04.57.01:587][370]LogEditorActor: Deleted 0 Actors (0.020 secs)
+[2026.09.11-04.57.01:594][370]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_19.SM_Fol_Plant_19
+[2026.09.11-04.57.01:594][370]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_19.SM_Fol_Plant_19
+[2026.09.11-04.57.01:596][370]LogActorFactory: Actor Factory spawned StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Plant_19.SM_Fol_Plant_19 as actor: StaticMeshActor /Game/Untitled.Untitled:PersistentLevel.StaticMeshActor_UAID_9C6B00A53C7E870003_1307656599
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: ================================================
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Total job queries 3 161, among them cache hits 814 (25.75%), DDC hits 1 834 (58.02%), Duplicates 190 (6.01%)
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Tracking 2 157 distinct input hashes that result in 1 306 distinct outputs (60.55%)
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: RAM used: 13,19 MiB of 819,20 MiB budget. Usage: 1.61%
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Shaders Compiled: 323
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Jobs assigned 323, completed 323 (100%)
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Average time worker was idle: 49.72 s
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Time job spent in pending queue: average 7.56 s, longest 26.12 s
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Job execution time: average 1.74 s, max 9.78 s
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Job life time (pending + execution): average 9.30 s, max 26.84
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Shader code size: total 3,164 MiB, numShaders 338, average 9,586 KiB, min 1,395 KiB, max 33,035 KiB
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 87.24 s
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Jobs were issued in 323 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Average processing rate: 3.70 jobs/sec
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Total thread time: 485,994 s
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Total thread preprocess time: 43,962 s
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Percentage time preprocessing: 9.05%
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Effective parallelization: 5.57 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.696307
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    5 times, average 4.99 sec, max 7.64 sec, min 2.81 sec)
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    5 times, average 4.25 sec, max 6.20 sec, min 2.12 sec)
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled   41 times, average 4.22 sec, max 7.92 sec, min 1.17 sec)
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    7 times, average 3.05 sec, max 4.67 sec, min 2.01 sec)
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    2 times, average 2.87 sec, max 3.01 sec, min 2.73 sec)
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 35.62% of total time (compiled   41 times, average 4.22 sec, max 7.92 sec, min 1.17 sec)
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display:                                               FHWRasterizePS - 12.69% of total time (compiled   59 times, average 1.05 sec, max 4.89 sec, min 0.01 sec)
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display:                                               FHWRasterizeMS - 7.46% of total time (compiled   36 times, average 1.01 sec, max 2.36 sec, min 0.61 sec)
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 5.13% of total time (compiled    5 times, average 4.99 sec, max 7.64 sec, min 2.81 sec)
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 4.39% of total time (compiled    7 times, average 3.05 sec, max 4.67 sec, min 2.01 sec)
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: === Material stats ===
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Materials Translated:    200
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Material Total Translate Time: 0.32 s
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Material Translation Only: 0.09 s (27%)
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: Material Cache Hits: 1 (1%)
+[2026.09.11-04.57.38:446][105]LogShaderCompilers: Display: ================================================
+[2026.09.11-04.58.19:601][307]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2035.500366
+[2026.09.11-04.58.20:384][354]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Meshes/SM_Fol_Bush_3.SM_Fol_Bush_3
+[2026.09.11-04.58.20:439][354]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.09.11-04.58.21:421][354]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.11-04.58.21:422][354]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2036.282471, Update Interval: 331.079437
+[2026.09.11-04.58.23:320][483]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/StyleHex_Studio/Free_Packs/FREE_Stylized_Grass_Flowers_Foliage/Materials/Mat_Foliage/MI_Fol_Foliage_Atlas.MI_Fol_Foliage_Atlas
+[2026.09.11-04.58.23:322][483]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.09.11-04.58.24:082][483]LogSlate: Took 0.093144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NotoColorEmoji.ttf' (7610K)
+[2026.09.11-04.58.26:218][588]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/StyleHex_Studio/Shared_Resources/Free_Packs/Master_Materials_STARTER/M_Foliage_Flowers_Master_STARTER.M_Foliage_Flowers_Master_STARTER
+[2026.09.11-04.58.26:226][588]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2026.09.11-04.58.26:905][588]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.11-04.58.26:905][588]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.58.26:905][588]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.58.26:906][588]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.58.26:906][588]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.58.26:906][588]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.58.26:906][588]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.58.26:906][588]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.58.26:906][588]MaterialEditorStats: Shader Count: 0
+[2026.09.11-04.58.26:906][588]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.58.27:174][590]MaterialEditorStats: Base pass shader: 201 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 3
+Sampler Limit: 32
+
+[2026.09.11-04.58.27:174][590]MaterialEditorStats: Base pass vertex shader: 242 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.09.11-04.58.27:174][590]MaterialEditorStats: Texture samplers: 3/16
+[2026.09.11-04.58.27:174][590]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.58.27:174][590]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.58.27:174][590]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.58.27:174][590]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.58.27:174][590]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.58.27:174][590]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.58.27:174][590]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.58.27:174][590]MaterialEditorStats: Shader Count: 10
+[2026.09.11-04.58.27:174][590]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.58.49:138][213]LogMaterial: Warning: [AssetLog] /Engine/Transient.M_Foliage_Flowers_Master_STARTER: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node NamedRerouteUsage) Invalid named reroute variable
+
+[2026.09.11-04.58.49:142][213]MaterialEditorStats: Error: [SM6] (Node NamedRerouteUsage) Invalid named reroute variable
+[2026.09.11-04.58.58:013][808]LogEditorTransaction: Undo Material Editor: Delete
+[2026.09.11-04.58.58:764][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.09.11-04.59.04:831][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.09.11-04.59.04:967][808]MaterialEditorStats: Base pass shader: 202 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 3
+Sampler Limit: 32
+
+[2026.09.11-04.59.04:968][808]MaterialEditorStats: Base pass vertex shader: 242 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.09.11-04.59.04:968][808]MaterialEditorStats: Texture samplers: 3/16
+[2026.09.11-04.59.04:968][808]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.04:968][808]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.04:968][808]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.04:968][808]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.04:968][808]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.04:968][808]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.04:968][808]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.04:968][808]MaterialEditorStats: Shader Count: 56
+[2026.09.11-04.59.04:968][808]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.59.20:705][900]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.11-04.59.20:705][900]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.20:705][900]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.20:705][900]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.20:705][900]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.20:705][900]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.20:705][900]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.20:705][900]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.20:705][900]MaterialEditorStats: Shader Count: 0
+[2026.09.11-04.59.20:705][900]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.59.20:829][903]MaterialEditorStats: Base pass vertex shader: 242 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.09.11-04.59.20:829][903]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.11-04.59.20:829][903]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.20:829][903]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.20:829][903]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.20:829][903]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.20:829][903]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.20:829][903]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.20:829][903]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.20:829][903]MaterialEditorStats: Shader Count: 4
+[2026.09.11-04.59.20:829][903]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.59.21:625][937]MaterialEditorStats: Base pass vertex shader: 242 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.09.11-04.59.21:625][937]MaterialEditorStats: Texture samplers: 2/16
+[2026.09.11-04.59.21:625][937]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.21:625][937]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.21:625][937]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.21:625][937]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.21:625][937]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.21:625][937]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.21:625][937]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.21:625][937]MaterialEditorStats: Shader Count: 6
+[2026.09.11-04.59.21:625][937]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.59.21:924][952]MaterialEditorStats: Base pass shader: 235 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 3
+Sampler Limit: 32
+
+[2026.09.11-04.59.21:924][952]MaterialEditorStats: Base pass vertex shader: 242 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.09.11-04.59.21:924][952]MaterialEditorStats: Texture samplers: 3/16
+[2026.09.11-04.59.21:924][952]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.21:924][952]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.21:925][952]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.21:925][952]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.21:925][952]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.21:925][952]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.21:925][952]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.21:925][952]MaterialEditorStats: Shader Count: 8
+[2026.09.11-04.59.21:925][952]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.59.27:630][306]MaterialEditorStats: Base pass shader: 202 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 3
+Sampler Limit: 32
+
+[2026.09.11-04.59.27:630][306]MaterialEditorStats: Base pass vertex shader: 242 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.09.11-04.59.27:630][306]MaterialEditorStats: Texture samplers: 3/16
+[2026.09.11-04.59.27:630][306]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.27:630][306]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.27:630][306]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.27:630][306]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.27:630][306]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.27:630][306]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.27:630][306]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.27:630][306]MaterialEditorStats: Shader Count: 12
+[2026.09.11-04.59.27:630][306]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.59.31:763][598]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.11-04.59.31:763][598]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.31:763][598]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.31:763][598]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.31:763][598]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.31:763][598]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.31:763][598]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.31:763][598]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.31:763][598]MaterialEditorStats: Shader Count: 0
+[2026.09.11-04.59.31:763][598]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.59.31:877][600]MaterialEditorStats: Base pass vertex shader: 242 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.09.11-04.59.31:877][600]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.11-04.59.31:878][600]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.31:878][600]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.31:878][600]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.31:878][600]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.31:878][600]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.31:878][600]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.31:878][600]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.31:878][600]MaterialEditorStats: Shader Count: 4
+[2026.09.11-04.59.31:878][600]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.59.32:748][638]MaterialEditorStats: Base pass vertex shader: 242 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.09.11-04.59.32:748][638]MaterialEditorStats: Texture samplers: 2/16
+[2026.09.11-04.59.32:748][638]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.32:748][638]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.32:748][638]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.32:748][638]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.32:748][638]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.32:748][638]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.32:748][638]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.32:748][638]MaterialEditorStats: Shader Count: 7
+[2026.09.11-04.59.32:748][638]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.59.33:044][653]MaterialEditorStats: Base pass shader: 203 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 3
+Sampler Limit: 32
+
+[2026.09.11-04.59.33:044][653]MaterialEditorStats: Base pass vertex shader: 242 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.09.11-04.59.33:044][653]MaterialEditorStats: Texture samplers: 3/16
+[2026.09.11-04.59.33:044][653]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.33:044][653]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.33:044][653]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.33:044][653]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.33:044][653]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.33:044][653]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.33:044][653]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.33:044][653]MaterialEditorStats: Shader Count: 8
+[2026.09.11-04.59.33:044][653]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.59.36:795][868]MaterialEditorStats: Base pass shader: 202 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 3
+Sampler Limit: 32
+
+[2026.09.11-04.59.36:796][868]MaterialEditorStats: Base pass vertex shader: 242 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.09.11-04.59.36:796][868]MaterialEditorStats: Texture samplers: 3/16
+[2026.09.11-04.59.36:796][868]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.36:796][868]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.36:796][868]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.36:796][868]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.36:796][868]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.36:796][868]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.36:796][868]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.36:796][868]MaterialEditorStats: Shader Count: 12
+[2026.09.11-04.59.36:796][868]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.59.38:420][984]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.11-04.59.38:420][984]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.38:420][984]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.38:420][984]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.38:420][984]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.38:420][984]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.38:420][984]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.38:420][984]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.38:420][984]MaterialEditorStats: Shader Count: 0
+[2026.09.11-04.59.38:420][984]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.59.38:534][986]MaterialEditorStats: Base pass vertex shader: 242 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.09.11-04.59.38:534][986]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.11-04.59.38:534][986]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.38:534][986]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.38:534][986]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.38:534][986]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.38:534][986]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.38:534][986]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.38:534][986]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.38:534][986]MaterialEditorStats: Shader Count: 4
+[2026.09.11-04.59.38:534][986]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.59.39:331][ 19]MaterialEditorStats: Base pass vertex shader: 242 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.09.11-04.59.39:331][ 19]MaterialEditorStats: Texture samplers: 2/16
+[2026.09.11-04.59.39:331][ 19]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.39:331][ 19]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.39:331][ 19]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.39:331][ 19]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.39:331][ 19]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.39:331][ 19]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.39:331][ 19]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.39:331][ 19]MaterialEditorStats: Shader Count: 7
+[2026.09.11-04.59.39:331][ 19]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.59.39:546][ 30]MaterialEditorStats: Base pass shader: 203 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 3
+Sampler Limit: 32
+
+[2026.09.11-04.59.39:546][ 30]MaterialEditorStats: Base pass vertex shader: 242 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.09.11-04.59.39:546][ 30]MaterialEditorStats: Texture samplers: 3/16
+[2026.09.11-04.59.39:546][ 30]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.39:546][ 30]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.39:546][ 30]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.39:546][ 30]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.39:546][ 30]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.39:546][ 30]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.39:546][ 30]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.39:546][ 30]MaterialEditorStats: Shader Count: 8
+[2026.09.11-04.59.39:546][ 30]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.59.41:751][151]MaterialEditorStats: Base pass shader: 202 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 3
+Sampler Limit: 32
+
+[2026.09.11-04.59.41:752][151]MaterialEditorStats: Base pass vertex shader: 242 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.09.11-04.59.41:752][151]MaterialEditorStats: Texture samplers: 3/16
+[2026.09.11-04.59.41:752][151]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.41:752][151]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.41:752][151]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.41:752][151]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.41:752][151]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.41:752][151]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.41:752][151]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.41:752][151]MaterialEditorStats: Shader Count: 12
+[2026.09.11-04.59.41:752][151]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-04.59.53:481][943]LogEditorTransaction: Undo Break Pin Links
+[2026.09.11-04.59.53:967][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.09.11-04.59.58:103][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2026.09.11-04.59.58:273][943]MaterialEditorStats: Base pass shader: 203 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 3
+Sampler Limit: 32
+
+[2026.09.11-04.59.58:273][943]MaterialEditorStats: Base pass vertex shader: 242 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.09.11-04.59.58:273][943]MaterialEditorStats: Texture samplers: 3/16
+[2026.09.11-04.59.58:273][943]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.09.11-04.59.58:273][943]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.11-04.59.58:273][943]MaterialEditorStats: LWC Demote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.58:273][943]MaterialEditorStats: LWC Add usages (Est.): 10 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.58:273][943]MaterialEditorStats: LWC Divide usages (Est.): 3 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.58:273][943]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.58:273][943]MaterialEditorStats: LWC Other usages (Est.): 5 (VS), 0 (PS), 0 (CS)
+[2026.09.11-04.59.58:273][943]MaterialEditorStats: Shader Count: 56
+[2026.09.11-04.59.58:273][943]MaterialEditorStats: Preshaders: 8  (8 param fetches, 10 ops)
+[2026.09.11-05.00.01:985][113]Cmd: TRANSACTION UNDO
+[2026.09.11-05.00.01:985][113]LogEditorTransaction: Undo Create Pin Link
+[2026.09.11-05.00.02:511][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2026.09.11-05.00.02:700][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2026.09.11-05.00.03:071][116]Cmd: TRANSACTION UNDO
+[2026.09.11-05.00.03:071][116]LogEditorTransaction: Undo Break Pin Links
+[2026.09.11-05.00.03:595][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.09.11-05.00.08:074][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2026.09.11-05.00.20:051][256]LogSlate: Window 'Message' being destroyed
+[2026.09.11-05.00.20:055][256]Message dialog closed, result: No, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/StyleHex_Studio/Shared_Resources/Free_Packs/Master_Materials_STARTER/M_Foliage_Flowers_Master_STARTER.M_Foliage_Flowers_Master_STARTER
+(Selecting 'No' will cause all changes to be lost!)
+[2026.09.11-05.00.20:085][256]LogSlate: Window 'M_Foliage_Flowers_Master_STARTER' being destroyed
+[2026.09.11-05.00.20:090][256]LogSlate: Window 'M_Foliage_Flowers_Master_STARTER' being destroyed
+[2026.09.11-05.00.20:409][256]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2026.09.11-05.00.20:410][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.11-05.00.20:588][256]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2026.09.11-05.00.20:588][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.11-05.00.20:771][256]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2026.09.11-05.00.20:771][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.11-05.00.20:824][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2026.09.11-05.00.30:267][569]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2026.09.11-05.00.33:055][569]LogSlate: Window 'Save Content' being destroyed
+[2026.09.11-05.00.33:065][569]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.11-05.00.33:238][569]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Untitled/2/LB/PB7I2M73TDR7MXW8IAVQJ2
+[2026.09.11-05.00.33:238][569]LogSavePackage: Moving 'E:/JV III/Chayer_Lou_TP1/Saved/PB7I2M73TDR7MXW8IAVQJ265E9C302401EA56341744D8B9FDEE6E6.tmp' to 'E:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Untitled/2/LB/PB7I2M73TDR7MXW8IAVQJ2.uasset'
+[2026.09.11-05.00.33:255][569]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Untitled/C/C4/IZRNHK9ER857H0PVAEFD4S
+[2026.09.11-05.00.33:255][569]LogSavePackage: Moving 'E:/JV III/Chayer_Lou_TP1/Saved/IZRNHK9ER857H0PVAEFD4S12CEC48641AAD2B71BD0A3A52D35D01F.tmp' to 'E:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Untitled/C/C4/IZRNHK9ER857H0PVAEFD4S.uasset'
+[2026.09.11-05.00.33:267][569]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Untitled/6/XS/O3JQGVO6096MUZER0ZF1K5
+[2026.09.11-05.00.33:267][569]LogSavePackage: Moving 'E:/JV III/Chayer_Lou_TP1/Saved/O3JQGVO6096MUZER0ZF1K5B628A9F44F1B255CE927AE803B8E5F38.tmp' to 'E:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Untitled/6/XS/O3JQGVO6096MUZER0ZF1K5.uasset'
+[2026.09.11-05.00.33:276][569]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Untitled/E/VX/CC61HJJX1B0E4LOHZ4QVJL
+[2026.09.11-05.00.33:276][569]LogSavePackage: Moving 'E:/JV III/Chayer_Lou_TP1/Saved/CC61HJJX1B0E4LOHZ4QVJL166007484DDEDE139781588BB37724C7.tmp' to 'E:/JV III/Chayer_Lou_TP1/Content/__ExternalActors__/Untitled/E/VX/CC61HJJX1B0E4LOHZ4QVJL.uasset'
+[2026.09.11-05.00.33:322][569]LogFileHelpers: InternalPromptForCheckoutAndSave took 256.873 ms (total: 32.3 sec)
+[2026.09.11-05.00.33:426][569]LogStall: Shutdown...
+[2026.09.11-05.00.33:426][569]LogStall: Shutdown complete.
+[2026.09.11-05.00.33:487][569]LogSlate: Window 'Chayer_Lou_TP1 - Unreal Editor' being destroyed
+[2026.09.11-05.00.33:807][569]LogContentValidation: Display: Starting to validate 4 assets
+[2026.09.11-05.00.33:807][569]LogContentValidation: Enabled validators:
+[2026.09.11-05.00.33:807][569]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.11-05.00.33:807][569]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.11-05.00.33:807][569]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.11-05.00.33:807][569]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.11-05.00.33:807][569]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.11-05.00.33:807][569]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.11-05.00.33:807][569]AssetCheck: /Game/Untitled Validating asset
+[2026.09.11-05.00.33:810][569]Cmd: QUIT_EDITOR
+[2026.09.11-05.00.33:810][569]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.09.11-05.00.33:813][569]LogSourceControl: Display: Uncontrolled Changelist persistency file saved E:/JV III/Chayer_Lou_TP1/Saved/SourceControl/UncontrolledChangelists.json
+[2026.09.11-05.00.33:827][570]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.09.11-05.00.33:829][570]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.09.11-05.00.33:829][570]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.09.11-05.00.33:849][570]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.09.11-05.00.33:852][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.11-05.00.33:852][570]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Untitled.Untitled
+[2026.09.11-05.00.33:892][570]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.09.11-05.00.33:894][570]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.09.11-05.00.33:900][570]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.09.11-05.00.33:928][570]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.09.11-05.00.33:928][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.11-05.00.33:928][570]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.09.11-05.00.33:929][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.11-05.00.33:935][570]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.09.11-05.00.33:935][570]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.09.11-05.00.33:939][570]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.09.11-05.00.33:953][570]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.09.11-05.00.33:953][570]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.09.11-05.00.33:953][570]LogAudio: Display: Audio Device unregistered from world 'Untitled'.
+[2026.09.11-05.00.33:953][570]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.09.11-05.00.33:958][570]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.09.11-05.00.33:964][570]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.09.11-05.00.33:986][570]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.09.11-05.00.33:986][570]LogAudio: Display: Audio Device Manager Shutdown
+[2026.09.11-05.00.33:988][570]LogWindowsTextInputMethodSystem: Activated input method: Français (Canada) - (Keyboard).
+[2026.09.11-05.00.33:992][570]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.09.11-05.00.33:996][570]LogExit: Preparing to exit.
+[2026.09.11-05.00.34:104][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2026.09.11-05.00.34:496][570]LogEditorDataStorage: Deinitializing
+[2026.09.11-05.00.34:623][570]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.09.11-05.00.34:749][570]LogExit: Editor shut down
+[2026.09.11-05.00.34:761][570]LogExit: Transaction tracking system shut down
+[2026.09.11-05.00.35:205][570]LogExit: Object subsystem successfully closed.
+[2026.09.11-05.00.35:302][570]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.09.11-05.00.35:554][570]LogMemoryProfiler: Shutdown
+[2026.09.11-05.00.35:554][570]LogNetworkingProfiler: Shutdown
+[2026.09.11-05.00.35:554][570]LoadingProfiler: Shutdown
+[2026.09.11-05.00.35:555][570]LogTimingProfiler: Shutdown
+[2026.09.11-05.00.35:560][570]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.09.11-05.00.35:560][570]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.09.11-05.00.36:166][570]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.09.11-05.00.36:166][570]LogNFORDenoise: NFORDenoise function shutting down
+[2026.09.11-05.00.36:172][570]RenderDocPlugin: plugin has been unloaded.
+[2026.09.11-05.00.36:220][570]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.09.11-05.00.36:221][570]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1DDAB8B0-4B41-AEBA-89A5-A0AA1A2F79FF%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=3c1ca8e3426fcd6248eaf18e75822f84%7C259df5229bf34b26aca1afb761a782b7%7C02ef313a-8e1e-4616-889e-59e367c33c3d&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.09.11-05.00.37:808][570]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.09.11-05.00.37:866][570]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.09.11-05.00.37:866][570]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.09.11-05.00.37:872][570]LogPakFile: Destroying PakPlatformFile
+[2026.09.11-05.00.38:786][570]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.09.11-05.00.38:818][570]LogExit: Exiting.
+[2026.09.11-05.00.38:860][570]Log file closed, 09/11/26 01:00:38
