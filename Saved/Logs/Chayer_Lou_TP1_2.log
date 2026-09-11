@@ -7786,3 +7786,22 @@ Script Stack (0 frames) :
 [2026.09.11-15.32.37:237][336]LogExit: Transaction tracking system shut down
 [2026.09.11-15.32.37:655][336]LogExit: Object subsystem successfully closed.
 [2026.09.11-15.32.37:724][336]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.09.11-15.32.37:874][336]LogMemoryProfiler: Shutdown
+[2026.09.11-15.32.37:874][336]LogNetworkingProfiler: Shutdown
+[2026.09.11-15.32.37:874][336]LoadingProfiler: Shutdown
+[2026.09.11-15.32.37:874][336]LogTimingProfiler: Shutdown
+[2026.09.11-15.32.37:875][336]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.09.11-15.32.37:875][336]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.09.11-15.32.38:254][336]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.09.11-15.32.38:260][336]LogNFORDenoise: NFORDenoise function shutting down
+[2026.09.11-15.32.38:260][336]RenderDocPlugin: plugin has been unloaded.
+[2026.09.11-15.32.38:289][336]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.09.11-15.32.38:291][336]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF6019139-408E-4D59-57AB-549ED0A310DE%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=613899e4075f413da3d689ddb2d441f2%7C259df5229bf34b26aca1afb761a782b7%7C038588c8-7413-4a8a-b7fb-dd9ca45a5cfd&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.09.11-15.32.38:831][336]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.09.11-15.32.38:831][336]LogXGEController: Cleaning working directory: C:/Users/6226165/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.09.11-15.32.38:836][336]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.09.11-15.32.38:836][336]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.09.11-15.32.38:836][336]LogPakFile: Destroying PakPlatformFile
+[2026.09.11-15.32.39:989][336]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.09.11-15.32.40:110][336]LogExit: Exiting.
+[2026.09.11-15.32.40:188][336]Log file closed, 09/11/26 11:32:40
